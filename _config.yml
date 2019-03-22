@@ -1,0 +1,28 @@
+title: Community Engaged Scholars
+email: ces@cs.usfca.edu
+description: >-
+  Community Engaged Scholars in Computer Science at the
+  University of San Francisco
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  # - jekyll-feed
+  # - jekyll-redirect-from
+
+collections:
+  scholarships:
+    title: Scholarships
+    navbar: Scholarships
+    icon: fas fa-award
+    key: 1
+    output: true
+    permalink: /:collection/:name:output_ext
+
+  curriculum:
+    title: Curriculum
+    navbar: Curriculum
+    icon: fas fa-books
+    key: 2
+    output: true
+    permalink: /:collection/:name:output_ext
