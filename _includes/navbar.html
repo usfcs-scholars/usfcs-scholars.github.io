@@ -1,0 +1,60 @@
+<!-- navigation -->
+<nav class="navbar is-light" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div id="main-menu" class="navbar-menu is-active">
+      <div class="navbar-start">
+        <a class="navbar-item{% if page.navbar == "Home" %} nav-mark{% endif %}" href="{{ site.url }}">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+          <span>Home</span>
+        </a>
+
+        {%- assign dropdowns = site.collections | where_exp: 'item', "item.label != 'posts'" | sort: "key" -%}
+        {%- for dropdown in dropdowns %}
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link{% if page.collection == dropdown.label %} nav-mark{% endif %}">
+            <span class="icon">
+              <i class="{{ dropdown.icon }}"></i>
+            </span>
+            <span>
+              {{ dropdown.title }}
+            </span>
+          </a>
+
+          <div class="navbar-dropdown">
+            {%- assign items = dropdown.docs | sort: 'key' -%}
+            {%- for item in items %}
+            <a class="navbar-item" href="{{ item.url }}">
+              {%- if item.icon %}
+              <span class="icon">
+                <i class="{{ item.icon }}"></i>
+              </span>
+              {% endif -%}
+              <span>
+                {{ item.title }}
+              </span>
+            </a>
+
+            {% endfor -%}
+          </div>
+
+        </div>
+
+        {% endfor -%}
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item{% if page.navbar == "About" %} nav-mark{% endif %}" href="{{ "/about.html" | relative_url }}">
+          <span class="icon">
+            <i class="fas fa-info-circle"></i>
+          </span>
+          <span>About</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</nav>
+<!-- end navigation -->
