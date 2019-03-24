@@ -1,11 +1,49 @@
 ---
 ---
 
+/* usf colors */
+$usf-gold: #FDBB30;
+$usf-green: #00543C;
+$usf-gray: #919194;
+
+/* usf accent palette */
+$usf-olive: #73973F;
+$usf-lime: #AED136;
+$usf-turquoise: #02B8A0;
+$usf-blue: #00B3D8;
+
+$usf-orange: #EB821E;
+$usf-terra: #CD542C;
+$usf-saddle: #CCAF74;
+$usf-beige: #DED5B4;
+$usf-plum: #A8228E;
+
+/* color customization */
+$yellow: $usf-gold;
+$orange: $usf-terra;
+$green: $usf-lime;
+$turquoise: $usf-turquoise;
+$blue: $usf-blue;
+$purple: $usf-plum;
+
+$primary: $usf-green;
+$link: $usf-blue;
+$info: $usf-turquoise;
+$success: $usf-lime;
+$warning: $usf-gold;
+$danger: $usf-terra;
+
+$custom-colors: (
+  "usf-gold": $usf-gold,
+  "usf-green": $usf-green,
+  "usf-gray": $usf-gray
+);
+
 @import "bulma";
 
 /* CUSTOM STYLES */
 
-.nav-mark {
-  border-collapse: collapse;
-  border-bottom: 3px $grey-lighter solid;
-}
+// .nav-mark {
+//   border-collapse: collapse;
+//   border-bottom: 3px $grey-lighter solid;
+// }

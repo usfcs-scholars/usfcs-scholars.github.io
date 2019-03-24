@@ -19,19 +19,24 @@
 
 {% include navbar.html %}
 
-<!-- content -->
 <section class="section">
 <div class="container">
-<div class="content">
 
-<h1>{{ page.title }}</h1>
+  {% include breadcrumb.html %}
 
-{{ content }}
+  <h2 class="title is-2">{{ page.title }}</h2>
 
-</div>
+  <!-- content -->
+  <div class="content">
+
+    {{ content }}
+
+  </div>
+  <!-- end content -->
+
 </div>
 </section>
-<!-- end content -->
+
 
 {% include footer.html %}
 

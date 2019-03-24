@@ -1,0 +1,12 @@
+<nav class="breadcrumb is-small" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="{{ site.url }}">{% include ces.html %}</a></li>
+    {%- if page.collection %}
+    {% assign me = site.collections | where: "label", page.collection | first %}
+    <li><a class="has-text-grey">{% if me.icon %}<i class="{{ me.icon }}"></i>&nbsp;{% endif %}{{ me.title }}</a></li>
+    <li><a href="{{ page.url | relative_url }}">{% if page.icon %}<i class="{{ page.icon }}"></i>&nbsp;{% endif %}{{ page.title }}</a></li>
+    {% else %}
+    <li><a href="{{ page.url | relative_url }}">{% if page.icon %}<i class="{{ page.icon }}"></i>&nbsp;{% endif %}{{ page.title }}</a></li>
+    {% endif -%}
+  </ul>
+</nav>
