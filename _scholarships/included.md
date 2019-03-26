@@ -7,7 +7,93 @@ icon: fas fa-award
 
 ---
 
-The {% include ces.html %} program is more than just scholarship funding; it includes a suite of activities designed to both promote community engagement as well as support the academic and professional success of the scholars.
+The {% include ces.html %} program is more than just scholarship funding; it includes a suite of activities designed to both promote community engagement as well as support the academic and professional success of the scholars. At a glance, the program looks like:
+
+<div class="glance">
+  <div class="columns is-3 is-mobile">
+    <div class="column"><strong>Year 1</strong></div>
+    <div class="column"><strong>Year 2</strong></div>
+    <div class="column"><strong>Year 3</strong></div>
+    <div class="column"><strong>Year 4</strong></div>
+  </div>
+
+  <div class="columns is-3 is-mobile">
+    <div class="column">
+      <p class="has-background-usf-green has-text-white">$8,125 Scholarship</p>
+    </div>
+    <div class="column">
+      <p class="has-background-usf-green has-text-white">$8,125 Scholarship</p>
+    </div>
+    <div class="column">
+      <p class="has-background-usf-green has-text-white">$8,125 Scholarship</p>
+    </div>
+    <div class="column">
+      <p class="has-background-usf-green has-text-white">$8,125 Scholarship</p>
+    </div>
+  </div>
+
+  <div class="columns is-3 is-mobile">
+    <div class="column"></div>  
+    <div class="column">
+      <p class="has-background-usf-green has-text-white">
+        $1,000 Conference Funding (Year 3 or 4)
+      </p>
+    </div>
+  </div>
+
+  <div class="columns is-3 is-mobile">
+    <div class="column">
+      <p class="has-background-usf-gold">Faculty Mentoring</p>
+    </div>
+    <div class="column">
+      <p class="has-background-usf-gold">Faculty Mentoring</p>
+    </div>
+    <div class="column">
+      <p class="has-background-usf-gold">Faculty Mentoring</p>
+    </div>
+    <div class="column">
+      <p class="has-background-usf-gold">Faculty Mentoring</p>
+    </div>
+  </div>
+
+  <div class="columns is-3 is-mobile">
+    <div class="column">
+      <p class="has-background-usf-gold">Cohort Enrollment</p>
+    </div>
+    <div class="column">
+      <p class="has-background-usf-gold">Cohort Enrollment</p>
+    </div>
+    <div class="column">
+      <p class="has-background-usf-gold">Alumni Mentoring</p>
+    </div>
+    <div class="column"></div>        
+  </div>
+
+  <div class="columns is-3 is-mobile">
+    <div class="column is-quarter">
+      <div class="columns is-3 is-mobile">
+        <div class="column is-narrow">
+          <p class="has-background-usf-gold">SHS</p>
+        </div>
+        <div class="column">
+          <p class="has-background-usf-gold">CS 101</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-quarter"></div>
+    <div class="column is-quarter">
+      <p class="has-background-usf-gold">CS 301</p>
+    </div>
+    <div class="column is-quarter"></div>
+  </div>
+
+  <div class="columns is-3 is-mobile">
+    <div class="column is-half"></div>
+    <div class="column is-half">
+      <p class="has-background-usf-gold">Service Learning (Year 3 or 4)</p>
+    </div>
+  </div>
+</div>
 
 {% include anchor.html h="h2" text="Scholarships" %}
 
@@ -100,14 +186,11 @@ Pending
 
 {% include anchor.html h="h4" text="CS 301" %}
 
-Pending
+Scholars will take a two unit CS 301 course focused on career preparedness. The course will provide guidance on applying for internships and full-time jobs; prepare students with resume guidance and mock interviews; and prepare students to attend a technical conference using the support provided by this award. The course also provides a structured opportunity to engage in the local bay area technical community via a day-long technical trek to local tech companies.
 
 {% include anchor.html h="h4" text="Service Learning" %}
 
 Pending
-
-
-
 
 <article class="message is-primary is-small">
   <div class="message-body">

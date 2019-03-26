@@ -60,7 +60,18 @@ $custom-colors: (
   visibility: visible;
 }
 
-// .nav-mark {
-//   border-collapse: collapse;
-//   border-bottom: 3px $grey-lighter solid;
-// }
+table.is-borderless td,
+table.is-borderless th,
+table.is-borderless tr {
+  border: none;
+}
+
+.glance {
+  text-align: center;
+}
+
+.glance p {
+  border-radius: 4px;
+  padding: 1.25rem;
+  height: 100%;
+}
