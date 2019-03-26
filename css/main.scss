@@ -43,6 +43,23 @@ $custom-colors: (
 
 /* CUSTOM STYLES */
 
+.anchor a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.anchor i {
+  color: $grey-light;
+  font-size: 1em;
+  margin-left: -1.25em;
+  position: absolute;
+  visibility: hidden;
+}
+
+.anchor:hover i {
+  visibility: visible;
+}
+
 // .nav-mark {
 //   border-collapse: collapse;
 //   border-bottom: 3px $grey-lighter solid;
