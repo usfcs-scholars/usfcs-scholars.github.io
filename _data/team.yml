@@ -1,0 +1,125 @@
+icons:
+  website: &icon_website
+    text: 'Website'
+    icon: 'far fa-atlas'
+
+  email: &icon_email
+    text: 'Email'
+    icon: 'far fa-envelope'
+
+  twitter: &icon_twitter
+    text: 'Twitter'
+    icon: 'fab fa-twitter'
+
+  linkedin: &icon_linkedin
+    text: 'Linkedin'
+    icon: 'fab fa-linkedin'
+
+people:
+  - first: 'Sophie'
+    last : 'Engle'
+    role : 'Principal Investigator'
+    image: '/images/engle.png'
+    links:
+      - link: 'https://sjengle.cs.usfca.edu/'
+        <<: *icon_website
+      - link: 'sjengle@cs.usfca.edu'
+        <<: *icon_email
+    title:
+      - 'Associate Professor'
+      - 'Visualization and Graphics Lab'
+      - 'Department of Computer Science'
+      - 'College of Arts and Sciences'
+      - 'University of San Francisco'
+
+  - first: 'Malik'
+    last : 'Henfield'
+    role : 'Co-Principal Investigator'
+    image: '/images/henfield.gif'
+    links:
+      - link: 'http://drhenfield.weebly.com/'
+        <<: *icon_website
+      - link: 'mshenfield@usfca.edu'
+        <<: *icon_email
+      - link: 'https://twitter.com/DrHenfield'
+        <<: *icon_twitter
+      - link: 'https://www.linkedin.com/in/henfield'
+        <<: *icon_linkedin
+    title:
+      - 'Associate Dean for Academic Affairs, Research, and Faculty Advancement'
+      - 'School of Education'
+      - 'University of San Francisco'
+
+  - first: 'Alark'
+    last : 'Joshi'
+    role : 'Co-Principal Investigator'
+    image: '/images/joshi.jpg'
+    links:
+      - link: 'https://www.cs.usfca.edu/~apjoshi/'
+        <<: *icon_website
+      - link: 'apjoshi@usfca.edu'
+        <<: *icon_email
+      - link: 'http://twitter.com/alark'
+        <<: *icon_twitter
+    title:
+      - 'Associate Professor'
+      - 'Visualization and Graphics Lab'
+      - 'Department of Computer Science'
+      - 'College of Arts and Sciences'
+      - 'University of San Francisco'
+
+  - first: 'Matthew'
+    last : 'Malensek'
+    role : 'Co-Principal Investigator'
+    image: '/images/malensek.jpg'
+    links:
+      - link: 'https://www.cs.usfca.edu/~mmalensek/'
+        <<: *icon_website
+      - link: 'mmalensek@usfca.edu'
+        <<: *icon_email
+    title:
+      - 'Assistant Professor'
+      - 'Department of Computer Science'
+      - 'College of Arts and Sciences'
+      - 'University of San Francisco'
+
+  - first: 'Christina'
+    last : 'Tzagarakis-Foster'
+    role : 'Co-Principal Investigator'
+    image: '/images/tzagarakis-foster.jpg'
+    links:
+      - link: 'https://www.usfca.edu/faculty/christina-tzagarakis-foster'
+        <<: *icon_website
+      - link: 'ctzagarakis@usfca.edu'
+        <<: *icon_email
+    title:
+      - 'Associate Dean for the Sciences'
+      - 'College of Arts and Sciences'
+      - 'University of San Francisco'
+
+  - first: 'Gian'
+    last : 'Bruno'
+    role : 'Senior Personnel'
+    links:
+      - link: 'gbruno@usfca.edu'
+        <<: *icon_email
+    title:
+      - 'Program Manager'
+      - 'Department of Computer Science'
+      - 'College of Arts and Sciences'
+      - 'University of San Francisco'
+
+  - first: 'Sami'
+    last : 'Rollins'
+    role : ''
+    image: '/images/rollins.jpg'
+    links:
+      - link: 'http://srollins.cs.usfca.edu/'
+        <<: *icon_website
+      - link: 'srollins@cs.usfca.edu'
+        <<: *icon_email
+    title:
+      - 'Professor'
+      - 'Department of Computer Science'
+      - 'College of Arts and Sciences'
+      - 'University of San Francisco'

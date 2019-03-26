@@ -6,5 +6,70 @@ title: About
 icon: fas fa-info-circle
 ---
 
+The <strong><span class="has-text-primary">Community Engaged Scholars</span> <span class="has-text-usf-gold">in</span> <span class="has-text-primary">Computer Science</span></strong> program at the University of San Francisco combines four-year scholarships for low-income students majoring in Computer Science with additional with a suite of activities designed to promote the engagement in the departmental, professional, and local communities. These activities include an immersive head start program, cohort enrollment in lower division CS major courses, and alumni mentoring. Scholars also participate in specialized coursework designed to support their academic and professional success, including a first-year course introducing students to campus and community resources, a junior career preparation course, and a CS focused service learning course.
 
-Pending
+## Team
+
+Below you can find our core team. We also work with many other amazing staff and faculty throughout the university to make this program possible, as well as our awesome alumni that sign up as mentors!
+
+{% assign people = site.data.team.people | sort: 'last' %}
+{%- for person in people %}
+<div class="media">
+  <div class="media-left">
+    <p class="image is-128x128">
+      {%- if person.image %}
+      <img src="{{ person.image }}" class="is-rounded">
+      {%- else -%}
+      <img src="{{ "/images/user.png" | relative_url }}" class="is-rounded">
+      {% endif -%}
+    </p>
+  </div>
+  <div class="media-content">
+    <div class="level is-marginless">
+      <div class="level-left">
+        <div class="level-item has-text-weight-bold is-size-5">
+          {{ person.first }} {{ person.last }}
+        </div>
+      </div>
+
+      <div class="level-right">
+        {%- if person.role == 'Principal Investigator' %}
+        <div class="level-item">
+          <span class="tag is-primary is-small">PI</span>
+        </div>
+        {% elsif person.role == 'Co-Principal Investigator' %}
+        <div class="level-item">
+          <span class="tag is-usf-gold is-small">Co-PI</span>
+        </div>
+        {% endif -%}
+      </div>
+    </div>
+
+    <div class="has-text-weight-light has-text-usf-gray">
+      {{ person.title | join: " &bullet; " }}
+    </div>
+
+    <div class="">
+    {%- for item in person.links %}
+      <a href="{{ item.link }}">
+        <i class="{{ item.icon }}"></i>&nbsp;{{ item.text }}
+      </a>
+      {%- unless forloop.last -%}
+      &bullet;
+      {%- endunless -%}
+    {% endfor -%}
+    </div>
+  </div>
+</div>
+{% endfor -%}
+
+
+## Funding
+
+This project is supported by the [National Science Foundation](https://www.nsf.gov/) under Grant No. [1833718](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1833718). It is part of the [NSF Scholarships in Science, Technology, Engineering, and Mathematics (S-STEM) Program](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5257). The program addresses the need for "a high quality STEM workforce in STEM disciplines" and the "increased success of low-income academically talented students with demonstrated financial need."
+
+Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+
+## Contact
+
+Please email <ces@cs.usfca.edu> if you have questions or comments regarding this program.
