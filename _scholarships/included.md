@@ -124,7 +124,9 @@ Scholars are expected to participate in the following activities. All of the act
 
 {% include anchor.html h="h4" text="Summer Head Start" %}
 
-Scholars will participate in a one week on-campus head start program prior to the start of their first year. Specifically, scholars will move into their dormitories one week early and participate in day-long sessions with faculty and guest lecturers introducing campus and departmental resources, technical foundations, and the resources available from the technical community in the SF Bay area. Students will also participate in a weekend field trip to familiarize them with the San Francisco area.
+<p>
+  {{ site.data.blurbs.headstart }}
+</p>
 
 The scholarship program covers the one week of additional housing costs and meal plan associated with the early arrival.
 
@@ -182,15 +184,21 @@ Scholars will be given registration priority for these courses. A small number o
 
 {% include anchor.html h="h4" text="CS 101" %}
 
-Pending
+<p>
+  {{ site.data.blurbs.cs101 }}
+</p>
 
 {% include anchor.html h="h4" text="CS 301" %}
 
-Scholars will take a two unit CS 301 course focused on career preparedness. The course will provide guidance on applying for internships and full-time jobs; prepare students with resume guidance and mock interviews; and prepare students to attend a technical conference using the support provided by this award. The course also provides a structured opportunity to engage in the local bay area technical community via a day-long technical trek to local tech companies.
+<p>
+  {{ site.data.blurbs.cs301 }}
+</p>
 
 {% include anchor.html h="h4" text="Service Learning" %}
 
-Pending
+<p>
+  {{ site.data.blurbs.service }}
+</p>
 
 <article class="message is-primary is-small">
   <div class="message-body">
