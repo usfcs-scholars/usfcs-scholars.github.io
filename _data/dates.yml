@@ -1,0 +1,52 @@
+application_deadline: &application_deadline
+  text: 'Deadline to apply for the CES|CS scholarship program.'
+  date: 2019-04-08
+  info: 'CES|CS Calendar'
+  link: 'https://scholars.cs.usfca.edu/'
+  type: 'has-text-primary'
+  icon: 'fas fa-star'
+
+video_interviews: &video_interviews
+  text: 'Video interviews for finalists begin.'
+  date: 2019-04-15
+  info: 'CES|CS Calendar'
+  link: 'https://scholars.cs.usfca.edu/'
+
+deposit_deadline: &deposit_deadline
+  text: 'Deadline to accept USF first-year fall admission and place the deposit.'
+  date: 2019-05-01
+  info: 'Admissions Calendar'
+  link: 'https://www.usfca.edu/admission/undergraduate/dates-and-deadlines'
+
+housing_deadline: &housing_deadline
+  text: 'Deadline to submit a first-year fall application for guaranteed on-campus housing.'
+  date: 2019-05-10
+  info: 'Housing Calendar'
+  link: 'https://myusf.usfca.edu/housing/important-dates'
+
+normal_movein: &normal_movein
+  text: 'Normal move-in date for all students.'
+  date: 2019-08-17
+  info: 'Housing Calendar'
+  link: 'https://myusf.usfca.edu/housing/important-dates'
+
+early_movein: &early_movein
+  text: 'Early move-in date for CES|CS scholarship receipients.'
+  date: 2019-08-11
+  info: 'CES|CS Calendar'
+  link: 'https://scholars.cs.usfca.edu/'
+
+normal_orientation: &normal_orientation
+  text: 'New Student & Family Orientation (NSFO) begins for all first year students.'
+  date: 2019-08-17
+  info: 'Academic Calendar'
+  link: 'https://myusf.usfca.edu/orientation'
+
+all:
+  - <<: *application_deadline
+  - <<: *video_interviews
+  - <<: *deposit_deadline
+  - <<: *housing_deadline
+  - <<: *normal_movein
+  - <<: *early_movein
+  - <<: *normal_orientation
