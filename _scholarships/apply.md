@@ -7,7 +7,7 @@ icon: fas fa-edit
 
 ---
 
-There is a multi phase application process. Eligible applicants are first invited to submit an application. The selection committee selects finalists based on this application to video interview. The committee will then identify the top 6 candidates and invite them to the scholarship program. If any candidate declines, the committee will invite individuals from the waitlist until 6 scholars are identified.
+There is a multi phase application process. Eligible applicants are first invited to submit an application. The selection committee identifies semi-finalists based on these applications to video interview. The committee will then select the top 6 candidates and invite them to the scholarship program. If any candidate declines, the committee will invite individuals from the waitlist until 6 scholars are identified.
 
 {% include anchor.html h="h2" text="Eligibility" %}
 
@@ -47,15 +47,35 @@ Eligible applicants will be contacted via email after being admitted to USF, and
 
   - Applicants will be asked to consent to releasing their GPA, SAT, and/or ACT scores from their USF applications to the {% include ces.html %} selection committee.
 
-The link to the application form is emailed directly to eligible applicants after being admitted to the university.
+<strong class="has-text-danger">Applications are due {{ site.data.dates.application_deadline.date | date: "%A %b %d, %Y" }}.</strong> The link to the application form is emailed directly to eligible applicants after being admitted to the university.
 
 {% include anchor.html h="h2" text="Interviews" %}
 
-Pending
+The selection committee will review all of the applications submitted by the deadline and invite semi-finalists to a 15 minute video interview with one or more of the committee members.
+
+Video interviews will be scheduled for the week of {{ site.data.dates.video_interviews.date | date: "%A %b %d, %Y" }}.
+
+Interviews will be conducted online via the free <a href="https://zoom.us/">Zoom</a> video conference software. Please <a href="https://zoom.us/download">download</a> this software or install the mobile app prior to the scheduled interview time.
+
+{% include anchor.html h="h2" text="Finalists" %}
+
+After the video interviews, the selection committee will offer the scholarship to the top 6 applicants. To accept the scholarship, these finalists:
+
+  - Must respond to the scholarship offer to accept the scholarship.
+
+  - Must formally accept admission to USF and submit a deposit by the deposit deadline of {{ site.data.dates.deposit_deadline.date | date: "%A %b %d, %Y" }}.
+
+  - Must formally apply for on-campus housing by {{ site.data.dates.deposit_deadline.date | date: "%A %b %d, %Y" }}.
+
+After {{ site.data.dates.deposit_deadline.date | date: "%A %b %d, %Y" }}, the scholarship will be offered to someone on the waitlist instead.
 
 {% include anchor.html h="h2" text="Waiting List" %}
 
-Pending
+After the video interviews, the selection committee will invite a select number of semi-finalists to join a waiting list. If space opens up after {{ site.data.dates.deposit_deadline.date | date: "%b %d, %Y" }}, it will be offered to someone on the waiting list instead.
+
+Please note this will be *after* the deposit deadline, so only applicants that decided to attend USF and deposited  will be eligible to accept. These applicants must accept the scholarship and apply for on-campus housing by the guaranteed housing deadline of {{ site.data.dates.housing_deadline.date | date: "%A %b %d, %Y" }}.
+
+The list of scholarship recipients will be finalized on {{ site.data.dates.housing_deadline.date | date: "%A %b %d, %Y" }}.
 
 {% include anchor.html h="h2" text="Important Dates" %}
 
@@ -64,7 +84,8 @@ Here are various dates relevant to the application process:
 <table class="table is-hover">
 <thead>
   <tr>
-    <th class="has-text-right">Date</th>
+    <th></th>
+    <th class="has-text-centered">Date</th>
     <th>Description</th>
     <th>Calendar</th>
   </tr>
@@ -74,9 +95,10 @@ Here are various dates relevant to the application process:
   {%- assign dates = site.data.dates.all | sort: "date" -%}
   {%- for item in dates %}
   <tr>
-    <th class="has-text-right {{ item.type}}">{{ item.date | date: "%a %b %d, %Y" }}</th>
+    <td>{% if item.icon %}<i class="{{ item.icon }} {{ item.type }}"></i>{% endif %}</td>
+    <th class="has-text-right" nowrap>{{ item.date | date: "%b %d, %Y" }}</th>
     <td>{{ item.text }}</td>
-    <td><a href="{{ item.link }}">{{ item.info }}</a></td>
+    <td nowrap><a href="{{ item.link }}">{{ item.info }}</a></td>
   </tr>
   {%- endfor %}
 </tbody>
