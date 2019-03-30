@@ -7,7 +7,7 @@ icon: fas fa-edit
 
 ---
 
-There is a two-phase application process. Eligible applicants are first invited to submit an application. The selection committee selects finalists based on this application to video interview. The committee will then identify the top 6 candidates and invite them to the scholarship program. If any candidate declines, the committee will invite individuals from the waitlist until 6 scholars are identified.
+There is a multi phase application process. Eligible applicants are first invited to submit an application. The selection committee selects finalists based on this application to video interview. The committee will then identify the top 6 candidates and invite them to the scholarship program. If any candidate declines, the committee will invite individuals from the waitlist until 6 scholars are identified.
 
 {% include anchor.html h="h2" text="Eligibility" %}
 
@@ -39,7 +39,7 @@ Eligible applicants will be contacted via email after being admitted to USF, and
 
   - Applicants will be asked to confirm they meet the eligibility criteria.
 
-  - Applicants will be asked to discuss any challenges they have overcome in 2000 characters or less.
+  - Applicants will be asked to discuss any challenges they have encountered on their path to college in 2000 characters or less. This may include challenges encountered at home, work, or school.
 
   - Applicants will be asked to discuss any responsibilities they have outside of school in 2000 characters or less. Responsibilities might include familial obligations, work obligations, and extra curricular activities.
 
@@ -47,6 +47,7 @@ Eligible applicants will be contacted via email after being admitted to USF, and
 
   - Applicants will be asked to consent to releasing their GPA, SAT, and/or ACT scores from their USF applications to the {% include ces.html %} selection committee.
 
+The link to the application form is emailed directly to eligible applicants after being admitted to the university.
 
 {% include anchor.html h="h2" text="Interviews" %}
 
@@ -80,7 +81,6 @@ Here are various dates relevant to the application process:
   {%- endfor %}
 </tbody>
 </table>
-
 
 <div class="has-text-centered is-size-7">
   <a href="https://www.usfca.edu/admission/undergraduate/dates-and-deadlines">Admissions Calendar</a>
