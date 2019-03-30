@@ -1,6 +1,6 @@
 # Community Engaged Scholars
 
-Website for the Community Engaged Scholars in Computer Science program at the University of San Francisco.
+Website for the Community Engaged Scholars in Computer Science scholarship program at the University of San Francisco.
 
 #### Contact
 
