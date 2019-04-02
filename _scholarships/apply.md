@@ -53,13 +53,13 @@ Eligible applicants will be contacted via email after being admitted to USF, and
 
 The selection committee will review all of the applications submitted by the deadline and invite semi-finalists to a 15 minute video interview with one or more of the committee members.
 
-Video interviews will be scheduled for the week of {{ site.data.dates.video_interviews.date | date: "%A %b %d, %Y" }}.
+Video interviews will be scheduled to start on {{ site.data.dates.video_interviews.date | date: "%A %b %d, %Y" }}.
 
 Interviews will be conducted online via the free <a href="https://zoom.us/">Zoom</a> video conference software. Please <a href="https://zoom.us/download">download</a> this software or install the mobile app prior to the scheduled interview time.
 
 {% include anchor.html h="h2" text="Finalists" %}
 
-After the video interviews, the selection committee will offer the scholarship to the top 6 applicants. To accept the scholarship, these finalists:
+After the video interviews, the selection committee will offer the scholarship to the top 6 applicants on {{ site.data.dates.finalist_notification.date | date: "%A %b %d, %Y" }}. To accept the scholarship, these finalists:
 
   - Must respond to the scholarship offer to accept the scholarship.
 

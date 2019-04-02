@@ -1,6 +1,6 @@
 application_deadline: &application_deadline
   text: 'Deadline to apply for the CES|CS scholarship program.'
-  date: 2019-04-08
+  date: 2019-04-10
   info: 'Scholarship Calendar'
   link: 'https://scholars.cs.usfca.edu/'
   type: 'has-text-danger'
@@ -8,7 +8,13 @@ application_deadline: &application_deadline
 
 video_interviews: &video_interviews
   text: 'Video interviews for finalists begin.'
-  date: 2019-04-15
+  date: 2019-04-17
+  info: 'Scholarship Calendar'
+  link: 'https://scholars.cs.usfca.edu/'
+
+finalist_notification: &finalist_notification
+  text: 'Scholarship finalist and waitlist notifications.'
+  date: 2019-04-24
   info: 'Scholarship Calendar'
   link: 'https://scholars.cs.usfca.edu/'
 
@@ -62,6 +68,7 @@ all:
   - <<: *accept_deadline
   - <<: *application_deadline
   - <<: *video_interviews
+  - <<: *finalist_notification
   - <<: *deposit_deadline
   - <<: *scholar_housing
   # - <<: *housing_deadline
