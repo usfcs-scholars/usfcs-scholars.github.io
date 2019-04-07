@@ -101,10 +101,9 @@ Each scholar will receive **$8,125 per year** for 4 years.
 
 The scholarships will be distributed through our [Office of Financial Aid](https://myusf.usfca.edu/financial-aid) as [refundable scholarships](https://myusf.usfca.edu/financial-aid/policies); after funds are applied to scholars' expenses any remaining funds may be disbursed to the scholar.
 
-To be eligible for continued support the scholars must remain enrolled full-time in the Computer Science major, achieve both major and overall GPA above 3.0, continue to qualify as low income, and participate in all required program activities. All activities listed on this page are required *except* the cohort enrollment, which is not required but strongly encouraged.
+To be eligible for continued support, scholars must remain enrolled full-time in the Computer Science major, achieve both major and overall GPAs above 3.0, continue to qualify as low income, and participate in all required program activities. All activities listed on this page are required *except* the cohort enrollment, which is not required but strongly encouraged.
 
-Scholars that fails to meet the criteria for a semester will be placed on probation. Scholars that fail to meet the criteria for two semesters in a row will not be eligible to renew the
-scholarship.
+Scholars that fail to meet the funding requirements for a semester will be placed on probation. Scholars that fail to meet the requirements for two consecutive semesters will not be eligible to renew the scholarship.
 
 {% include anchor.html h="h4" text="Other Funding" %}
 

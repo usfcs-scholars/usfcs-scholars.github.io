@@ -6,7 +6,7 @@
 
 - q: 'Why do I have to participate in all of the activities to receive the scholarship funding?'
   a: |
-    The goal of this program is to improve outcomes for low-income students. These activities are based on existing literature showing they help improve these outcomes (such as year-to-year retention or graduation rates). The scholarship funding is to support participation in this activities. Specifically, the funding is designed to offset the need to work on campus during the academic year and make it easier for students to participate in these activities.
+    The goal of this program is to improve outcomes for low-income students (such as year-to-year retention or graduation rates). These activities are based on existing literature showing they help improve these outcomes. The scholarship funding is to support participation in this activities. Specifically, the funding is designed to offset the need to work on campus during the academic year and make it easier for students to participate in these activities.
 
 - q: 'Am I still eligible for on-campus work?'
   a: 'Yes, participation in this program does not affect your eligibility for on campus work (although we hope the scholarships lessens the need for it). Visit our <a href="https://myusf.usfca.edu/student-employment/students">student employment office website</a> for details.'
@@ -16,15 +16,15 @@
 
 - q: 'Do I have to enroll in the same courses as other scholars?'
   a: |
-    Cohort enrollment (which involves all scholars enrolling in the same courses) is <strong>strongly</strong> encouraged for all lower division (100 or 200-level courses) but not required. If one of the cohort course sections conflicts with your schedule, you may select an alternative.</p>
+    Cohort enrollment (where all scholars enroll in the same courses) is <strong>strongly</strong> encouraged for all lower division (100 or 200-level courses) but not required. If one of the cohort course sections conflicts with your schedule, you may select an alternative.</p>
 
     <p>Scholars also do not have to enroll for a course they already received credit for. For example, if you received credit for <a href="https://www.usfca.edu/catalog/course/109-calculus-and-analytic-geometry-i">Math 109 Calculus and Analytic Geometry I</a> then you do not need to enroll in that course with the other scholars.
 
 - q: 'What are the requirements to maintain funding for all four years?'
-  a: 'Pending'
+  a: 'To be eligible for continued support, scholars must remain enrolled full-time in the Computer Science major, achieve both major and overall GPAs above 3.0, continue to qualify as low income, and participate in all required program activities.'
 
 - q: 'What happens if I fail to meet the funding requirements during a semester?'
-  a: 'Pending'
+  a: 'Scholars that fail to meet the funding requirements for a semester will be placed on probation. Scholars that fail to meet the requirements for two consecutive semesters will not be eligible to renew the scholarship.'
 
 - q: 'What happens if I switch majors?'
   a: 'You must be a CS major to continue receiving funding. You should speak with an advisor before switching majors.'
@@ -33,16 +33,16 @@
   a: 'You will no longer receive scholarship funding past the fourth year. However, scholars will still have access to their faculty advisor and may apply for other funding opportunities.'
 
 - q: 'Will there be another opportunity to receive this scholarship?'
-  a: 'Pending'
+  a: 'There will be two cohorts funded under this program. If additional funding becomes available, existing CS majors may be invited to join one of these cohorts.'
 
 - q: 'Can other students participate in the CES|CS activities?'
-  a: 'Pending'
+  a: 'Many activities sponsored by this program will be open to a select number of other CS majors. This includes the CS 101, CS 301, and service learning courses. Some social and networking events may be open to others as well.'
 
 - q: 'Am I still eligible for other department scholarships?'
   a: "Yes, participation in this program does not exclude you from other scholarship opportunities. We announce scholarship opportunities via our students' mailing list, which you are added to automatically after taking your first CS course."
 
 - q: 'What other funding opportunities does the CS department support beyond the CES|CS program?'
-  a: 'Pending'
+  a: 'Yes, the department offers many other funding opportunities to existing CS majors. This includes tuition support and conference funding. The department also offers on-campus work via teacher assistants, research assistants, and tutors. For recent funding opportunities, <a href="http://usfblogs.usfca.edu/usfcs/">check out our blog</a>.'
 
 - q: 'What other activities does the CS department support beyond the CES|CS program?'
-  a: 'Pending'
+  a: 'The CS department supports a wide array of other programs, including hackathons, field trips, guest speakers, networking activities, conferences, social events, and more. For recent activities, <a href="http://usfblogs.usfca.edu/usfcs/">check out our blog</a>.'
