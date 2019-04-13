@@ -7,7 +7,13 @@ icon: fas fa-edit
 
 ---
 
-There is a multi phase application process. Eligible applicants are first invited to submit an application. The selection committee identifies semi-finalists based on these applications to video interview. The committee will then select the top 6 candidates and invite them to the scholarship program. If any candidate declines, the committee will invite individuals from the waitlist until 6 scholars are identified.
+<div class="columns">
+  <div class="column is-three-fifths is-offset-one-fifth notification is-usf-gold has-text-centered">
+    We are still taking applications, but notification for late applications may be delayed. Email <a href="mailto:ces@cs.usfca.edu">ces@cs.usfca.edu</a> for updates.
+  </div>
+</div>
+
+There is a multi phase application process. Eligible applicants are first invited to submit an application. The selection committee identifies semi-finalists based on these applications to video interview. The committee will then select the top candidates and invite them to the scholarship program. If any candidate declines, the committee will invite individuals from the waitlist until enough scholars are identified.
 
 {% include anchor.html h="h2" text="Eligibility" %}
 
@@ -17,7 +23,7 @@ Applicants must meet the following eligibility criteria to receive this scholars
 
   2. Must be a U.S. citizen or permanent resident.
 
-  3. Must be classified as low-income according to their FAFSA.
+  3. Must be considered low income based on the submitted FAFSA. This is defined as being Pell grant eligible and having a family income at or below $50,000.
 
   4. Must have either a high school GPA of 3.0 or higher, a SAT score of 1250 or higher, or an ACT score of 28 or higher (only one of these must be met).
 
@@ -27,7 +33,7 @@ To continue receiving funding, scholars must meet the following criteria at the 
 
   2. Must have both a major GPA and overall GPA of 3.0 or higher.
 
-  3. Must continue to qualify as low-incoming according to their FAFSA.
+  3. Must continue to qualify as low-income (see above).
 
   4. Must participate in all required program activities.
 
@@ -47,7 +53,7 @@ Eligible applicants will be contacted via email after being admitted to USF, and
 
   - Applicants will be asked to consent to releasing their GPA, SAT, and/or ACT scores from their USF applications to the {% include ces.html %} selection committee.
 
-<strong class="has-text-danger">Applications are due {{ site.data.dates.application_deadline.date | date: "%A %b %d, %Y" }}.</strong> The link to the application form is emailed directly to eligible applicants after being admitted to the university.
+<strong class="has-text-danger">Applications are due <strike>{{ site.data.dates.application_deadline.date | date: "%A %b %d, %Y" }}.</strike> <span class="tag is-usf-gold">See Notice</span></strong> The link to the application form is emailed directly to eligible applicants after being admitted to the university.
 
 {% include anchor.html h="h2" text="Interviews" %}
 
@@ -80,6 +86,12 @@ The list of scholarship recipients will be finalized on {{ site.data.dates.housi
 {% include anchor.html h="h2" text="Important Dates" %}
 
 Here are various dates relevant to the application process:
+
+<div class="columns">
+  <div class="column is-three-fifths is-offset-one-fifth notification is-usf-gold has-text-centered">
+    We are still taking applications, but notification for late applications may be delayed. Email <a href="mailto:ces@cs.usfca.edu">ces@cs.usfca.edu</a> for updates.
+  </div>
+</div>
 
 <table class="table is-hover">
 <thead>
