@@ -99,7 +99,7 @@ The {% include ces.html %} program is more than just scholarship funding; it inc
 
 Each scholar will receive **$8,125 per year** for 4 years.
 
-The scholarships will be distributed through our [Office of Financial Aid](https://myusf.usfca.edu/financial-aid) as [refundable scholarships](https://myusf.usfca.edu/financial-aid/policies); after funds are applied to scholars' expenses any remaining funds may be disbursed to the scholar.
+These scholarships are *in addition* to any financial aid or scholarships you have already received. The scholarships will be disbursed directly into scholars’ student account before the tuition deadline through the [Office of Financial Aid](https://myusf.usfca.edu/financial-aid). After funds are applied to scholars' expenses (tuition, fees, room, board, and any applicable fees charged to the student's account), any remaining funds [may be disbursed](https://myusf.usfca.edu/financial-aid/policies) to the scholar.  
 
 To be eligible for continued support, scholars must remain enrolled full-time in the Computer Science major, achieve both major and overall GPAs above 3.0, continue to qualify as low income, and participate in all required program activities. All activities listed on this page are required *except* the cohort enrollment, which is not required but strongly encouraged.
 
