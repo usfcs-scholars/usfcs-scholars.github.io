@@ -7,10 +7,19 @@ description: >-
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  # - jekyll-feed
-  # - jekyll-redirect-from
+  - jekyll-feed
+
+paginate: 5
+paginate_path: "/posts/:num/"
 
 collections:
+  posts:
+    title: Announcements
+    icon: far fa-newspaper
+    index: /posts/
+    output: true
+    permalink: /:collection/:year-:month-:day-:slug:output_ext
+
   scholarships:
     title: Scholarships
     navbar: Scholarships

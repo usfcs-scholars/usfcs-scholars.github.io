@@ -75,3 +75,13 @@ table.is-borderless tr {
   padding: 1.25rem;
   height: 100%;
 }
+
+ul.pagination-list {
+  list-style: none;
+  margin-left: 0em;
+  margin-top: 0em;
+}
+
+ul.pagination-list li + li {
+  margin-top: 0em;
+}

@@ -1,0 +1,32 @@
+---
+title: Announcements
+layout: default
+---
+
+{% for post in paginator.posts %}
+
+<h4 class="title">{{ post.title }}</h4>
+<h6 class="subtitle has-text-grey has-text-weight-normal">
+  Posted {{ post.date | date: "%A %b %d, %Y" }}
+  <a href="{{ post.url }}"><i class="far fa-link"></i></a>
+</h6>
+
+{{ post.content }}
+
+{% unless forloop.last %}<hr/>{% endunless %}
+
+{% endfor %}
+
+
+<nav class="pagination" role="navigation" aria-label="pagination">
+  <a class="pagination-previous" {% if paginator.previous_page %}href="{{ paginator.previous_page_path }}"{% else %}disabled{% endif %}>&laquo; Previous</a>
+  <a class="pagination-next" {% if paginator.next_page %}href="{{ paginator.next_page_path }}"{% else %}disabled{% endif %}>Next Page &raquo;</a>
+
+  <ul class="pagination-list">
+    {% for page in (1..paginator.total_pages) %}
+    <li>
+      <a class="pagination-link{% if page == paginator.page %} is-current{% endif %}" href="/posts/{% unless page == 1 %}{{ page }}/{% endunless %}" aria-label="Page {{ page }}"{% if page == paginator.page %} aria-current="page"{% endif %}>{{ page }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -3,8 +3,11 @@
     <li><a href="{{ site.url }}">{% include ces.html %}</a></li>
     {%- if page.collection %}
     {% assign me = site.collections | where: "label", page.collection | first %}
-    <li><a class="has-text-grey">{% if me.icon %}<i class="{{ me.icon }}"></i>&nbsp;{% endif %}{{ me.title }}</a></li>
+    <li><a {% if me.index %}href="{{ me.index }}"{% else %}class="has-text-grey"{% endif %}>{% if me.icon %}<i class="{{ me.icon }}"></i>&nbsp;{% endif %}{{ me.title }}</a></li>
     <li><a href="{{ page.url | relative_url }}">{% if page.icon %}<i class="{{ page.icon }}"></i>&nbsp;{% endif %}{{ page.title }}</a></li>
+    {% elsif paginator.page > 0 %}
+    <li><a href="/posts/"><i class="far fa-newspaper"></i>&nbsp;Announcements</a></li>
+    <li><a href="{{ page.url | relative_url }}">Page {{ paginator.page }}</a></li>
     {% else %}
     <li><a href="{{ page.url | relative_url }}">{% if page.icon %}<i class="{{ page.icon }}"></i>&nbsp;{% endif %}{{ page.title }}</a></li>
     {% endif -%}
