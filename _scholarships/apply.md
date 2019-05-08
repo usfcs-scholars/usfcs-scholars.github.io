@@ -9,7 +9,7 @@ icon: fas fa-edit
 
 <div class="columns">
   <div class="column is-three-fifths is-offset-one-fifth notification is-usf-gold has-text-centered">
-    We are still taking applications, but notification for late applications may be delayed. Email <a href="mailto:ces@cs.usfca.edu">ces@cs.usfca.edu</a> for updates.
+    Applications for Fall 2019 are now closed.
   </div>
 </div>
 
@@ -53,7 +53,7 @@ Eligible applicants will be contacted via email after being admitted to USF, and
 
   - Applicants will be asked to consent to releasing their GPA, SAT, and/or ACT scores from their USF applications to the {% include ces.html %} selection committee.
 
-<strong class="has-text-danger">Applications are due <strike>{{ site.data.dates.application_deadline.date | date: "%A %b %d, %Y" }}.</strike> <span class="tag is-usf-gold">See Notice</span></strong> The link to the application form is emailed directly to eligible applicants after being admitted to the university.
+<strong class="has-text-danger">Fall 2019 applications are due {{ site.data.dates.application_deadline.date | date: "%A %b %d, %Y" }}.</strong> The link to the application form is emailed directly to eligible applicants after being admitted to the university.
 
 {% include anchor.html h="h2" text="Interviews" %}
 
@@ -89,7 +89,7 @@ Here are various dates relevant to the application process:
 
 <div class="columns">
   <div class="column is-three-fifths is-offset-one-fifth notification is-usf-gold has-text-centered">
-    We are still taking applications, but notification for late applications may be delayed. Email <a href="mailto:ces@cs.usfca.edu">ces@cs.usfca.edu</a> for updates.
+    Applications for Fall 2019 are now closed.
   </div>
 </div>
 
