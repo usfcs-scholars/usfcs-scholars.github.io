@@ -15,7 +15,28 @@ icons:
     text: 'Linkedin'
     icon: 'fab fa-linkedin'
 
+  youtube: &icon_youtube
+    text: 'YouTube'
+    icon: 'fab fa-youtube'
+
 people:
+  - first: 'Xornam '
+    last : 'Apedoe'
+    role : 'Co-Principal Investigator'
+    image: '/images/apedoe.jpg'
+    links:
+      - link: 'https://www.usfca.edu/faculty/xornam-apedoe'
+        <<: *icon_website
+      - link: 'https://youtu.be/Fa27DRXBU3w'
+        <<: *icon_youtube
+      - link: 'xapedoe@usfca.edu'
+        <<: *icon_email
+    title:
+      - 'Associate Professor'
+      - 'Department of Learning and Instruction'
+      - 'School of Education'
+      - 'University of San Francisco'
+
   - first: 'Sophie'
     last : 'Engle'
     role : 'Principal Investigator'
@@ -43,12 +64,12 @@ people:
         <<: *icon_email
       - link: 'https://twitter.com/DrHenfield'
         <<: *icon_twitter
-      - link: 'https://www.linkedin.com/in/henfield'
+      - link: 'https://www.linkedin.com/in/drhenfield'
         <<: *icon_linkedin
     title:
-      - 'Associate Dean for Academic Affairs, Research, and Faculty Advancement'
+      - 'Dean'
       - 'School of Education'
-      - 'University of San Francisco'
+      - 'Loyola University Chicago'
 
   - first: 'Alark'
     last : 'Joshi'
