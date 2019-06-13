@@ -121,6 +121,7 @@ people:
   - first: 'Gian'
     last : 'Bruno'
     role : 'Senior Personnel'
+    image: '/images/bruno.png'
     links:
       - link: 'gbruno@usfca.edu'
         <<: *icon_email
