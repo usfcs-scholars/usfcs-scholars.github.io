@@ -18,7 +18,13 @@ icon: fas fa-home
   <a href="{{ post.url }}"><i class="far fa-link"></i></a>
 </h6>
 
-{{ post.content }}
+{% if post.content contains site.excerpt_separator %}
+{{ post.excerpt }}
+
+<p class="has-text-grey is-italic"><a href="{{ post.url }}">Click to read more...</a></p>
+{% else %}
+{{ post.content  }}
+{% endif %}
 
 {% unless forloop.last %}<hr/>{% endunless %}
 
