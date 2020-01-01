@@ -43,6 +43,10 @@ $custom-colors: (
 
 /* CUSTOM STYLES */
 
+.message.is-primary .message-body {
+  color: unset !important;
+}
+
 .anchor a {
   color: inherit;
   text-decoration: inherit;
