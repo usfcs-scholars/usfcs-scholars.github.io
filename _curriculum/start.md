@@ -14,7 +14,7 @@ icon: fas fa-bus-school
 
 The website for the Fall 2019 summer CS head start program is located at:
 
-  - <https://scholars.cs.usfca.edu/start2019/>
+  - **<https://scholars.cs.usfca.edu/start2019/>**
   {: .list-none }
 
 Below are the general materials used to introduce and wrapup the program:
@@ -25,19 +25,33 @@ Below are the general materials used to introduce and wrapup the program:
 
 Below are the materials from the "**CS Major and Advising**" session. These are specific to our CS major:
 
-  - Pending
+  - **[CS Advising Slides](https://docs.google.com/presentation/d/e/2PACX-1vSrT8A_h0hpX3hp6RQ_0Y9CJmkrlg6SzLIc3Kim9I22Lmlk1r3IHRajdkU9t4YetSsljjauuoNhnEkE/pub?start=false&loop=false&delayms=3000&slide=id.p):** These slides gave an overview of the core and CS major requirements at the University of San Francisco. Afterwards, students and faculty broken into small groups for advising. Each group had 3 or 4 students and one CS faculty member.
+
+  - **[CS Major Advising Worksheet](https://docs.google.com/document/d/1Al-72D4pwdNHCnP-Dywa5QV0a5IxMEcmlU96FwSuOBc/edit?usp=sharing):** This is the worksheet students were asked to fill in during the small group advising session. The worksheet was more of a guide on what to discuss---some groups deviated to answer the questions students had at the time.
+
+  - **[CS Major Prerequisites](https://drive.google.com/open?id=1lMH7qmDrcfoBHHOER-tzoGoCVEv1V4Fe):** This is an overview of the CS major requirements and their prerequisites at the University of San Francisco. It was given to students as a reference.
+
+  - **[CS Major Requirements](https://docs.google.com/document/d/1Rb78VLQDEgGS8JYnsgjg-QaKAvL7JpCny0ydvcqYPeI/edit?usp=sharing):** This is a checklist of CS major requirements at the University of San Francisco. It was given to students as a reference.
 
 Below are the materials from the "**Careers in CS**" session. Some of the material is specific to the SF Bay area:
 
-  - Pending
+  - **[Careers in CS Slides](https://docs.google.com/presentation/d/e/2PACX-1vQUalpfpb2hqTwOhpY2G1OXDn06M8tFI0wsJC1RBRJk9ACNzslGA5BTYn_rFfNjbl4Jsau1WWnLtKd8/pub?start=false&loop=false&delayms=3000&slide=id.p):** These slides introduced students to computer science, gave a *brief* history, and different possible career paths for CS majors.
+
+  - **[Computer and Information Technology Occupations](https://www.bls.gov/ooh/computer-and-information-technology/home.htm):** This is a web resource given to students on different occupations within the "Computer and Information Technology" area and their median pay.
+
+  - **[Career One Stop](https://www.careeronestop.org/):** This is a web resource given to students that has salary ranges for different regions, including the SF Bay area.
 
 Below are the materials from the "**Using Unix**" session. Some of the material is specific to the SF Bay area:
 
-  - Pending
+  - **[Using Unix Topic Sheet](https://docs.google.com/document/d/1u6U_Wakfgt0p1ijvee_E192AdzRJYs5uKkuZQWwL1VE/edit?usp=sharing)**: This document lists some of the topics (or specific Unix commands) to cover during the session.
+
+  - **[Digital Scavenger Hunt Structure](https://docs.google.com/document/d/1cknMYUNeONaBuXqV7hmEQGn8RuSaFfSfKX0cu4TYLMI/edit?usp=sharing), [Files](/files/start2019/hunt2019.zip):** This documents and includes the files for the digital scavenger hunt. Students were asked to use what they learned about Unix commands to discover a hidden poem on our CS lab computers. There was an issue with the clue that caused some issues with the exercise.
 
 Below are the materials from the "**Python Programming**" sessions. Some of the material is specific to the SF Bay area:
 
-  - Pending
+  - **[Python Programming Plan](/files/start2019/python-plan.pdf)**: This is the loose plan used to run the Python Programming sessions. The actual exercises were adjusted individually for students based on their backgrounds.
+
+  - **[Python Programming Starter Code](/files/start2019/starter-code.zip)**: This is the starter Python code given to students to work on during the Python programming sessions.
 
 Below are the materials from the "**Faculty Scavenger Hunt**" session. This session was held on the same day as the college-wide start-of-semester meeting, which all faculty are expected to attend. This meant most faculty were on campus and able to participate in the scavenger hunt:
 
