@@ -53,6 +53,12 @@ Below are the materials from the "**Python Programming**" sessions. Some of the 
 
   - **[Python Programming Starter Code](/files/start2019/starter-code.zip)**: This is the starter Python code given to students to work on during the Python programming sessions.
 
+Below are the materials from the "CS Unplugged" session. We did not create these materials; they are from the "[CS Unplugged](https://www.csunplugged.org/en/)" website:
+
+  - **[Parity Magic](https://www.csunplugged.org/en/topics/error-detection-and-correction/unit-plan/parity-magic/)**: This links to the CS Unplugged materials on the "Parity Magic" unit plan.
+
+  - **[Parity Magic Interactive](https://csfieldguide.org.nz/en/interactives/parity/)**: This links to an interactive version of the "Parity Magic" unit plan that was used in class.
+
 Below are the materials from the "**Faculty Scavenger Hunt**" session. This session was held on the same day as the college-wide start-of-semester meeting, which all faculty are expected to attend. This meant most faculty were on campus and able to participate in the scavenger hunt:
 
   - **[Faculty Scavenger Hunt Instructions](https://docs.google.com/presentation/d/e/2PACX-1vTsoKCPWNuqEepmeY7KvwPtHacFpAMZgjCRtL5KR7PPoJzlSbSIOTLJH_iLfQRSMSC4LLMy6BOb5vna/pub?start=false&loop=false&delayms=3000):** These are the slides with the student instructions for the faculty scavenger hunt.
