@@ -76,13 +76,13 @@ The {% include ces.html %} program is more than just scholarship funding; it inc
           <p class="has-background-usf-gold">SHS</p>
         </div>
         <div class="column">
-          <p class="has-background-usf-gold">CS 101</p>
+          <p class="has-background-usf-gold">CECS</p>
         </div>
       </div>
     </div>
     <div class="column is-quarter"></div>
     <div class="column is-quarter">
-      <p class="has-background-usf-gold">CS 301</p>
+      <p class="has-background-usf-gold">Career Prep</p>
     </div>
     <div class="column is-quarter"></div>
   </div>
@@ -97,7 +97,7 @@ The {% include ces.html %} program is more than just scholarship funding; it inc
 
 {% include anchor.html h="h2" text="Scholarships" %}
 
-Each scholar will receive **$8,125 per year** for 4 years.
+Each scholar will receive up to **$32,500** over 4 years, which works out to $8,125.00 per year or $4,062.50 per semester.
 
 These scholarships are *in addition* to any financial aid or scholarships you have already received. The scholarships will be disbursed directly into scholars’ student account before the tuition deadline through the [Office of Financial Aid](https://myusf.usfca.edu/financial-aid). After funds are applied to scholars' expenses (tuition, fees, room, board, and any applicable fees charged to the student's account), any remaining funds [may be disbursed](https://myusf.usfca.edu/financial-aid/policies) to the scholar.  
 
@@ -155,7 +155,7 @@ Scholars will *not* be required to enroll in courses they already received credi
 
 {% include anchor.html h="h4" text="Faculty Mentoring" %}
 
-Scholars will have a dedicated faculty mentor from the [core team]({{ "/about.html#team" | relative_url }}). Scholars will initially meet their mentors during [CS 101](#cs-101) in the first semester, and once per semester after that (either in person or virtually).
+Scholars will have a dedicated faculty mentor from the [core team]({{ "/about.html#team" | relative_url }}). Scholars will initially meet their mentors during the [Community Engaged CS (CECS)](#community-engaged-cs) course in the first semester, and once per semester after that (either in person or virtually).
 
 <article class="message is-primary is-small">
   <div class="message-body">
@@ -165,7 +165,7 @@ Scholars will have a dedicated faculty mentor from the [core team]({{ "/about.ht
 
 {% include anchor.html h="h4" text="Alumni Mentoring" %}
 
-In addition to a faculty mentor, each scholar will also be paired with an <strong>alumnus mentor</strong> in their junior year. These alumni mentors will offer the scholars advice on preparing for a career in technology. Scholars will first meet their mentors at an in-person networking event during [CS 301](#cs-301) and will meet with their mentors twice monthly during the junior year (in person or virtually).
+In addition to a faculty mentor, each scholar will also be paired with an <strong>alumnus mentor</strong> in their junior year. These alumni mentors will offer the scholars advice on preparing for a career in technology. Scholars will first meet their mentors at an in-person networking event during the [Career Prep](#career-prep) course and will meet with their mentors twice monthly during the junior year (in person or virtually).
 
 <article class="message is-primary is-small">
   <div class="message-body">
@@ -181,13 +181,13 @@ Specifically, all students must complete a [minimum of 128 credit hours](https:/
 
 Scholars will be given registration priority for these courses. A small number of other CS majors will also be able to enroll in these courses.
 
-{% include anchor.html h="h4" text="CS 101" %}
+{% include anchor.html h="h4" text="Community Engaged CS" %}
 
 <p>
   {{ site.data.blurbs.cs101 }}
 </p>
 
-{% include anchor.html h="h4" text="CS 301" %}
+{% include anchor.html h="h4" text="Career Prep" %}
 
 <p>
   {{ site.data.blurbs.cs301 }}
