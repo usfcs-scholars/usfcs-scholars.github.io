@@ -2,7 +2,7 @@
 layout: default
 key: 1
 
-title: "Head Start"
+title: "Summer Head Start"
 icon: fas fa-bus-school
 ---
 
