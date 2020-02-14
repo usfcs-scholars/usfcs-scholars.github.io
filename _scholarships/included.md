@@ -111,8 +111,9 @@ In addition to the scholarships, the {% include ces.html %} program also funds u
 The program also funds the scholars' participation in the [head start](#summer-head-start) program.
 This includes one week of on-campus housing and a meal plan, as well as any field trip costs.
 
-<article class="message is-primary is-small">
+<article class="message">
   <div class="message-body">
+    <i class="fas fa-plane"></i>
     The CS Department and College of Arts and Sciences also provides additional funding opportunities for students to attend conferences. Scholars may apply for these opportunities to support additional travel.
   </div>
 </article>
@@ -129,8 +130,9 @@ Scholars are expected to participate in the following activities. All of the act
 
 The scholarship program covers the one week of additional housing costs and meal plan associated with the early arrival.
 
-<article class="message is-primary is-small">
+<article class="message">
   <div class="message-body">
+    <i class="fas fa-info-circle"></i>
     Scholars that are also part of another early arrival residential program like the <a href="https://myusf.usfca.edu/student-life/casa/muscat">Muscat Scholars</a> or <a href="https://www.usfca.edu/academics/special-programs/black-achievement-success-engagement">BASE</a> will be able to still participate in those programs.
   </div>
 </article>
@@ -157,8 +159,9 @@ Scholars will *not* be required to enroll in courses they already received credi
 
 Scholars will have a dedicated faculty mentor from the [core team]({{ "/about.html#team" | relative_url }}). Scholars will initially meet their mentors during the [Community Engaged CS (CECS)](#community-engaged-cs) course in the first semester, and once per semester after that (either in person or virtually).
 
-<article class="message is-primary is-small">
+<article class="message">
   <div class="message-body">
+    <i class="fas fa-user"></i>
     All CS majors are automatically assigned an academic advisor from the department. Scholars may request their dedicated faculty mentor also serves as their academic advisor.
   </div>
 </article>
@@ -167,8 +170,9 @@ Scholars will have a dedicated faculty mentor from the [core team]({{ "/about.ht
 
 In addition to a faculty mentor, each scholar will also be paired with an <strong>alumnus mentor</strong> in their junior year. These alumni mentors will offer the scholars advice on preparing for a career in technology. Scholars will first meet their mentors at an in-person networking event during the [Career Prep](#career-prep) course and will meet with their mentors twice monthly during the junior year (in person or virtually).
 
-<article class="message is-primary is-small">
+<article class="message">
   <div class="message-body">
+    <i class="fas fa-users"></i>
     There is also a university-wide <a href="https://www.usfca.edu/alumni/mentor">alumni mentor program</a> that is open to all students. Scholars may choose to participate in both programs if they wish.
   </div>
 </article>
@@ -199,8 +203,9 @@ Scholars will be given registration priority for these courses. A small number o
   {{ site.data.blurbs.service }}
 </p>
 
-<article class="message is-primary is-small">
+<article class="message">
   <div class="message-body">
+    <i class="fas fa-hand-holding-heart"></i>
     All undergraduate students must take a <a href="https://www.usfca.edu/academics/undergraduate/core-curriculum/additional-requirements">service learning (SL)</a> course as part of their degree.
   </div>
 </article>

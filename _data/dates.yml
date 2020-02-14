@@ -1,26 +1,26 @@
 application_deadline: &application_deadline
-  text: 'Deadline to apply for the CES|CS scholarship program.'
-  date: 2019-04-10
+  text: 'Priority deadline to apply for the CES|CS scholarship program.'
+  date: 2020-04-10
   info: 'Scholarship Calendar'
   link: 'https://scholars.cs.usfca.edu/'
   type: 'has-text-danger'
   icon: 'fas fa-star'
 
-video_interviews: &video_interviews
-  text: 'Video interviews for finalists begin.'
-  date: 2019-04-17
-  info: 'Scholarship Calendar'
-  link: 'https://scholars.cs.usfca.edu/'
+# video_interviews: &video_interviews
+#   text: 'Video interviews for finalists begin.'
+#   date: 2019-04-17
+#   info: 'Scholarship Calendar'
+#   link: 'https://scholars.cs.usfca.edu/'
 
 finalist_notification: &finalist_notification
   text: 'Scholarship finalist and waitlist notifications.'
-  date: 2019-04-24
+  date: 2020-04-20
   info: 'Scholarship Calendar'
   link: 'https://scholars.cs.usfca.edu/'
 
 accept_deadline: &accept_deadline
   text: 'Deadline for finalists to accept the CES|CS scholarship.'
-  date: 2019-05-01
+  date: 2020-05-01
   info: 'Scholarship Calendar'
   link: 'https://scholars.cs.usfca.edu/'
   type: 'has-text-danger'
@@ -28,31 +28,31 @@ accept_deadline: &accept_deadline
 
 deposit_deadline: &deposit_deadline
   text: 'Deadline to accept USF first-year fall admission and place the deposit.'
-  date: 2019-05-01
+  date: 2020-05-01
   info: 'Admissions Calendar'
   link: 'https://www.usfca.edu/admission/undergraduate/dates-and-deadlines'
 
 scholar_housing: &scholar_housing
   text: 'Deadline for finalists to submit a first-year fall application for guaranteed on-campus housing.'
-  date: 2019-05-01
+  date: 2020-05-01
   info: 'Housing Calendar'
   link: 'https://myusf.usfca.edu/housing/important-dates'
 
 housing_deadline: &housing_deadline
   text: 'Normal deadline to submit a first-year fall application for guaranteed on-campus housing.'
-  date: 2019-05-10
+  date: 2020-05-08
   info: 'Housing Calendar'
   link: 'https://myusf.usfca.edu/housing/important-dates'
 
 normal_movein: &normal_movein
   text: 'Normal move-in date for all students.'
-  date: 2019-08-17
+  date: 2020-08-15
   info: 'Housing Calendar'
   link: 'https://myusf.usfca.edu/housing/important-dates'
 
 early_movein: &early_movein
   text: 'Early move-in date for CES|CS scholarship recipients.'
-  date: 2019-08-11
+  date: 2020-08-09
   info: 'Scholarship Calendar'
   link: 'https://scholars.cs.usfca.edu/'
   type: 'has-text-usf-gold'
@@ -60,14 +60,14 @@ early_movein: &early_movein
 
 normal_orientation: &normal_orientation
   text: 'New Student & Family Orientation (NSFO) begins for all first year students.'
-  date: 2019-08-17
+  date: 2020-08-15
   info: 'Academic Calendar'
   link: 'https://myusf.usfca.edu/orientation'
 
 all:
   - <<: *accept_deadline
   - <<: *application_deadline
-  - <<: *video_interviews
+  # - <<: *video_interviews
   - <<: *finalist_notification
   - <<: *deposit_deadline
   - <<: *scholar_housing

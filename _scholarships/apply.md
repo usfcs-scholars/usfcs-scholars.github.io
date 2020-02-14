@@ -1,60 +1,63 @@
 ---
 layout: default
-key: 2
+key: 3
 
 title: "How to Apply"
 icon: fas fa-edit
 
 ---
 
-<div class="columns">
-  <div class="column is-three-fifths is-offset-one-fifth notification is-usf-gold has-text-centered">
-    Applications for Fall 2019 are now closed.
+<article class="message is-danger">
+  <div class="message-body">
+    <i class="fad fa-calendar-exclamation"></i>
+    The priority application deadline for Fall 2020 is <strong>{{ site.data.dates.application_deadline.date | date: "%A %B %d, %Y"}}</strong>. Applications received after that date will be considered for the waiting list. See below for details.
   </div>
-</div>
+</article>
 
-There is a multi phase application process. Eligible applicants are first invited to submit an application. The selection committee identifies semi-finalists based on these applications to video interview. The committee will then select the top candidates and invite them to the scholarship program. If any candidate declines, the committee will invite individuals from the waitlist until enough scholars are identified.
+Potentially eligible applicants are first invited via email to submit an application to the {% include ces.html %} program. The committee then selects the top candidates and invites them to the scholarship program. If any candidate declines, the committee invites individuals from the waitlist until enough scholars are identified.
 
 {% include anchor.html h="h2" text="Eligibility" %}
 
 Applicants must meet the following eligibility criteria to receive this scholarship:
 
-  1. Must be admitted as a full-time degree-seeking student in the CS major for Fall 2019.
+  1. You must be admitted to USF as a full-time degree-seeking student majoring in Computer Science.
 
-  2. Must be a U.S. citizen or permanent resident.
+  2. You must be citizens of the United States, OR nationals of the United States (as defined in section 101(a) of the Immigration and Nationality Act), OR aliens admitted as refugees under section 207 of the Immigration and Nationality Act, OR aliens lawfully admitted to the United States for permanent residence (You only need to meet ONE of these requirements.)
 
-  3. Must be considered low income based on the submitted FAFSA. This is defined as being Pell grant eligible and having a family income at or below $50,000.
+  3. You must have either a high school GPA of 3.0 or higher, OR a SAT score of 1250 or higher, OR an ACT score of 28 or higher. (You only need to meet ONE of these requirements.)
 
-  4. Must have either a high school GPA of 3.0 or higher, a SAT score of 1250 or higher, or an ACT score of 28 or higher (only one of these must be met).
+  4. You must have an EFC (estimated family contribution) at or below $50,000 on your FAFSA.
 
-To continue receiving funding, scholars must meet the following criteria at the end of every semester:
+  5. You must be Pell Grant eligible and have unmet financial need.
 
-  1. Must remain a full-time student in the CS major.
+Applications can be submitted even if the last items (4 and/or 5) are unknown. We will determine whether your application meets those requirement before awarding the scholarships.
 
-  2. Must have both a major GPA and overall GPA of 3.0 or higher.
-
-  3. Must continue to qualify as low-income (see above).
-
-  4. Must participate in all required program activities.
-
-Scholars that fails to meet the criteria for a semester will be placed on probation. Scholars that fail to meet the criteria for two semesters in a row will not be eligible to renew the scholarship.
+For additional eligibility details, such as the requirements for continued funding, see the [Eligibility](/scholarships/eligibility.html) guide.
 
 {% include anchor.html h="h2" text="Application" %}
 
-Eligible applicants will be contacted via email after being admitted to USF, and asked to fill out a form with the following questions:
+Potentially eligible applicants are contacted via email after being admitted to USF and asked to fill out a form with the following questions:
 
-  - Applicants will be asked to confirm they meet the eligibility criteria.
-
-  - Applicants will be asked to discuss any challenges they have encountered on their path to college in 2000 characters or less. This may include challenges encountered at home, work, or school.
-
-  - Applicants will be asked to discuss any responsibilities they have outside of school in 2000 characters or less. Responsibilities might include familial obligations, work obligations, and extra curricular activities.
+  - Applicants will be asked to consent to the selection committee accessing their declared major, citizenship status, GPA, SAT, ACT, FAFSA, and financial aid information from their USF applications to verify eligibility.
 
   - Applicants will be asked to upload a 1 to 3 page resume in PDF format.
 
-  - Applicants will be asked to consent to releasing their GPA, SAT, and/or ACT scores from their USF applications to the {% include ces.html %} selection committee.
+The application also includes the following essay questions. The responses should be approximately 2-3 paragraphs; there is a 2000 character maximum per essay responses:
 
-<strong class="has-text-danger">Fall 2019 applications are due {{ site.data.dates.application_deadline.date | date: "%A %b %d, %Y" }}.</strong> The link to the application form is emailed directly to eligible applicants after being admitted to the university.
+  - Applicants will be asked to discuss any **challenges they have encountered on their path to college**, including challenges encountered at home, work, or school.
 
+  - Applicants will be asked to discuss any **responsibilities they have outside of school**, including familial obligations, work obligations, and extra curricular activities.
+
+  - Applicants will be asked to discuss **why they decided to major in computer science**.
+
+  - Applicants will be asked to discuss the **single most important factor that will determine which university they choose** to attend, including class sizes, location, cost, diversity, available majors, and others.
+
+<strong class="has-text-danger">Applications are due {{ site.data.dates.application_deadline.date | date: "%A %b %d, %Y" }}.</strong> The link to the application form is emailed directly to eligible applicants after being admitted to the university. The form is also available below:
+
+[<i class="fas fa-edit"></i> Apply Now](https://forms.gle/jUzsdq6SuBKuSD8f6)
+{: .button .is-primary .is-large .inherit }
+
+{% comment %}
 {% include anchor.html h="h2" text="Interviews" %}
 
 The selection committee will review all of the applications submitted by the deadline and invite semi-finalists to a 15 minute video interview with one or more of the committee members.
@@ -62,36 +65,36 @@ The selection committee will review all of the applications submitted by the dea
 Video interviews will be scheduled to start on {{ site.data.dates.video_interviews.date | date: "%A %b %d, %Y" }}.
 
 Interviews will be conducted online via the free <a href="https://zoom.us/">Zoom</a> video conference software. Please <a href="https://zoom.us/download">download</a> this software or install the mobile app prior to the scheduled interview time.
+{% endcomment %}
 
 {% include anchor.html h="h2" text="Finalists" %}
 
-After the video interviews, the selection committee will offer the scholarship to the top 6 applicants on {{ site.data.dates.finalist_notification.date | date: "%A %b %d, %Y" }}. To accept the scholarship, these finalists:
+The selection committee will offer the {% include ces.html %} scholarship to the top 6 applicants on {{ site.data.dates.finalist_notification.date | date: "%A %b %d, %Y" }}. Notifications will be sent to the email address entered in the application form. To accept the scholarship, these finalists:
 
-  - Must respond to the scholarship offer to accept the scholarship.
+  - Must respond to the scholarship offer via email to accept the scholarship.
 
   - Must formally accept admission to USF and submit a deposit by the deposit deadline of {{ site.data.dates.deposit_deadline.date | date: "%A %b %d, %Y" }}.
 
   - Must formally apply for on-campus housing by {{ site.data.dates.deposit_deadline.date | date: "%A %b %d, %Y" }}.
 
-After {{ site.data.dates.deposit_deadline.date | date: "%A %b %d, %Y" }}, the scholarship will be offered to someone on the waitlist instead.
+If any of the finalists decline, the scholarship will be offered to someone on the waitlist instead.
+
+<article class="message is-warning">
+  <div class="message-body">
+    <i class="fad fa-exclamation-triangle"></i>
+    Be prepared for a quick turnaround between notification and the accept deadline. There will be just over 10 days to decide!
+  </div>
+</article>
 
 {% include anchor.html h="h2" text="Waiting List" %}
 
-After the video interviews, the selection committee will invite a select number of semi-finalists to join a waiting list. If space opens up after {{ site.data.dates.deposit_deadline.date | date: "%b %d, %Y" }}, it will be offered to someone on the waiting list instead.
+The selection committee will invite a select number of semi-finalists to join a waiting list for the {% include ces.html %} program. If space opens up, the scholarship will be offered to someone on the waiting list instead. Please note this might be *after* the deposit deadline, so only applicants that decided to attend USF and deposited will be eligible to accept at that point.
 
-Please note this will be *after* the deposit deadline, so only applicants that decided to attend USF and deposited  will be eligible to accept. These applicants must accept the scholarship and apply for on-campus housing by the guaranteed housing deadline of {{ site.data.dates.housing_deadline.date | date: "%A %b %d, %Y" }}.
-
-The list of scholarship recipients will be finalized on {{ site.data.dates.housing_deadline.date | date: "%A %b %d, %Y" }}.
+If you are on the waiting list, be prepared for a quick turnaround! There may be only 1 week after notification to accept. Applicants must accept the scholarship and apply for on-campus housing by the guaranteed housing deadline of {{ site.data.dates.housing_deadline.date | date: "%A %b %d, %Y" }}.
 
 {% include anchor.html h="h2" text="Important Dates" %}
 
 Here are various dates relevant to the application process:
-
-<div class="columns">
-  <div class="column is-three-fifths is-offset-one-fifth notification is-usf-gold has-text-centered">
-    Applications for Fall 2019 are now closed.
-  </div>
-</div>
 
 <table class="table is-hover">
 <thead>

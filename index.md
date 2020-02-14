@@ -79,6 +79,13 @@ icon: fas fa-home
 <p>Welcome to the <strong><span class="has-text-primary">Community Engaged Scholars</span> <span class="has-text-usf-gold">in</span> <span class="has-text-primary">Computer Science</span></strong> scholarship program at the University of San Francisco. This is program combines scholarships with community-building activities such as field trips, speakers, mentoring, social events, and coursework.
 Scholars receive up to <strong>$32,500 in scholarships</strong> over four years plus another $1,000 for conference travel.
 
+<article class="message is-danger">
+  <div class="message-body">
+    <i class="fad fa-calendar-exclamation"></i>
+    The priority application deadline for Fall 2020 is <strong>{{ site.data.dates.application_deadline.date | date: "%A %B %d, %Y"}}</strong>. Applications received after that date will be considered for the waiting list. See <a href="/scholarships/apply.html">How to Apply</a> for application details.
+  </div>
+</article>
+
 <h2>Latest Announcements</h2>
 
 {% for post in site.posts limit:3 %}
