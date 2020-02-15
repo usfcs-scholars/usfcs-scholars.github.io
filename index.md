@@ -76,8 +76,7 @@ icon: fas fa-home
   </div>
 </div>
 
-<p>Welcome to the <strong><span class="has-text-primary">Community Engaged Scholars</span> <span class="has-text-usf-gold">in</span> <span class="has-text-primary">Computer Science</span></strong> scholarship program at the University of San Francisco. This is program combines scholarships with community-building activities such as field trips, speakers, mentoring, social events, and coursework.
-Scholars receive up to <strong>$32,500 in scholarships</strong> over four years plus another $1,000 for conference travel.
+<p>Welcome to the <strong><span class="has-text-primary">Community Engaged Scholars</span> <span class="has-text-usf-gold">in</span> <span class="has-text-primary">Computer Science</span></strong> scholarship program at the University of San Francisco. This is program combines scholarships with community-building activities such as field trips to tech companies, guest speakers, faculty and alumni mentoring, social events, and coursework. Scholars receive up to <strong>$32,500 in scholarships</strong> over four years plus another $1,000 for conference travel.
 
 <article class="message is-danger">
   <div class="message-body">
