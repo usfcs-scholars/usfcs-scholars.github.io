@@ -72,7 +72,20 @@ icon: fas fa-home
       <div class="card-content">
         <a href="https://twitter.com/bdougieYO">Brian Douglas</a>, Developer Advocate at Github.com, speaking to scholars as part of the <a href="https://scholars.cs.usfca.edu/cs186-fall2019/">Community Engaged CS</a> course in 2019.
       </div>
-    </div>  
+    </div>
+  </div>
+
+  <div class="item-4">
+    <div class="card">
+      <div class="card-image">
+        <div class="image is-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wpYx__6KhHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="has-ratio"></iframe>
+        </div>
+      </div>
+      <div class="card-content">
+        Video from Professor Sophie Engle introducting the Computer Engaged Scholars in CS scholarship program.
+      </div>
+    </div>
   </div>
 </div>
 
