@@ -98,6 +98,13 @@ icon: fas fa-home
   </div>
 </article>
 
+<article class="message is-link">
+  <div class="message-body">
+    <i class="fad fa-info-circle"></i>
+    Questions? Join us for a live Q&A webinar on Mon March 30 or April 6th between 5:00pm and 7:00pm PT. <a href="https://usfca.zoom.us/webinar/register/WN_a2YXki29R864Mz9gZjm49w">Register now!</a>
+  </div>
+</article>
+
 <h2>Latest Announcements</h2>
 
 {% for post in site.posts limit:3 %}
