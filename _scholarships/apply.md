@@ -10,6 +10,14 @@ icon: fas fa-edit
 <article class="message is-danger">
   <div class="message-body">
     <i class="fad fa-calendar-exclamation"></i>
+    <strong>Scholarship applications are now closed.</strong> It may still be possible to participate in the programming associated with this program. Check the latest announcements for details.
+  </div>
+</article>
+
+<!--
+<article class="message is-danger">
+  <div class="message-body">
+    <i class="fad fa-calendar-exclamation"></i>
     The priority application deadline for Fall 2020 is <strong>{{ site.data.dates.application_deadline.date | date: "%A %B %d, %Y"}}</strong>. Applications received after that date will be considered for the waiting list. See below for details.
   </div>
 </article>
@@ -20,6 +28,7 @@ icon: fas fa-edit
     Questions? Join us for a live Q&A webinar on Mon March 30 or April 6th between 5:00pm and 7:00pm PT. <a href="https://usfca.zoom.us/webinar/register/WN_a2YXki29R864Mz9gZjm49w">Register now!</a>
   </div>
 </article>
+-->
 
 Potentially eligible applicants are first invited via email to submit an application to the {% include ces.html %} program. The committee then selects the top candidates and invites them to the scholarship program. If any candidate declines, the committee invites individuals from the waitlist until enough scholars are identified.
 
