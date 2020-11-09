@@ -9,7 +9,7 @@ icon: fas fa-award
 
 The {% include ces.html %} program is more than just scholarship funding; it includes a suite of activities designed to both promote community engagement as well as support the academic and professional success of the scholars. 
 
-For scholars joining the program as incoming first-year students, the program looks like:
+For scholars joining the program as incoming first-year students the program looks as follows. Continuing students awarded scholarships *after* beginning their study at USF will join an in-progress cohort. Funding provided and activities required will be commensurate with the class year of the scholar when joining the program.
 
 <div class="glance">
   <div class="columns is-3 is-mobile">
@@ -96,9 +96,6 @@ For scholars joining the program as incoming first-year students, the program lo
     </div>
   </div>
 </div>
-
-
-Continuing students awarded scholarships *after* beginning their study at USF will join an in-progress cohort. Funding provided and activities required will be commensurate with the class year of the scholar when joining the program.
 
 {% include anchor.html h="h2" text="Scholarships" %}
 
