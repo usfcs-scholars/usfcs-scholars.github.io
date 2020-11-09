@@ -5,7 +5,7 @@ title: "Applications Open!"
 
 Need financial aid? Have a 3.0+ GPA or 1250+ ACT or 28+ ACT? How does receiving up to **$32,500 over 4 years** sound?
 
-We are now accepting applications for the Fall 2020 <strong><span class="has-text-primary">Community Engaged Scholars</span> <span class="has-text-usf-gold">in</span> <span class="has-text-primary">Computer Science</span></strong> scholarship program at the University of San Francisco. For full consideration, applications are due on **{{ site.data.dates.application_deadline.date | date: "%A %B %d, %Y"}}**.
+We are now accepting applications for the Fall 2020 <strong><span class="has-text-primary">Community Engaged Scholars</span> <span class="has-text-usf-gold">in</span> <span class="has-text-primary">Computer Science</span></strong> scholarship program at the University of San Francisco. For full consideration, applications are due on **Friday April 10, 2020**.
 
 For full details, see [What's Included](/scholarships/included.html) with the scholarships, the [Eligibility](/scholarships/eligibility.html) requirements to receive and continue funding, and [How to Apply](/scholarships/apply.html) for the 2020 scholarship program.
 
