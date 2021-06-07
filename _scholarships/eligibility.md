@@ -26,15 +26,13 @@ To continue and receive funding, recipients must remain a full-time student (12+
 
 {% include anchor.html h="h2" text="Academic Performance" %}
 
-Incoming first-year applicants must meet ONE of the following requirements to be eligible for the initial {% include ces.html %} scholarship:
+Applicants must meet ONE of the following requirements to be eligible for the initial {% include ces.html %} scholarship:
 
   1. Must have a high school GPA of 3.0 or higher, OR...
 
   2. Must have a SAT score of 1250 or higher, OR...
 
   3. Must have an ACT score of 28 or higher
-
-Continuing students must have a USF Computer Science major GPA of 3.0 or higher.
 
 To continue receiving funding, recipients must meet the following criteria at the end of every semester:
 
@@ -58,11 +56,11 @@ The [NSF S-STEM](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5257) program 
 
   1. You must have a [Free Application for Federal Student Aid (FAFSA)](https://studentaid.gov/h/apply-for-aid/fafsa) submitted along with your USF application.
 
-  2. You must have an EFC (estimated family contribution) at or below $50,000 on your FAFSA.
+  2. You must have unmet financial need prior to the application of this scholarship.
 
-  3. You must be [Pell Grant](https://www2.ed.gov/programs/fpg/index.html) eligible and have unmet financial need.
+  3. You must be considered "low income" as determined by the [Office of Financial Aid](https://myusf.usfca.edu/financial-aid).
 
-If applicants do not yet have their financial aid packets and are unsure of their Pell Grant eligibility, they can still apply for the scholarship. Pell Grant eligibility will be verified prior to awarding the {% include ces.html %} scholarship.
+If applicants do not yet have their financial aid packets and are unsure of their low-income eligibility, they can still apply for the scholarship. Low-income eligibility will be verified prior to awarding the {% include ces.html %} scholarship.
 
 {% include anchor.html h="h2" text="Continued Funding" %}
 
