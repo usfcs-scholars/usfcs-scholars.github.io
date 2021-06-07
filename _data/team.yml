@@ -39,7 +39,7 @@ people:
 
   - first: 'Sophie'
     last : 'Engle'
-    role : 'Principal Investigator'
+    role : 'Co-Principal Investigator'
     image: '/images/engle.png'
     links:
       - link: 'https://sjengle.cs.usfca.edu/'
@@ -55,7 +55,7 @@ people:
 
   - first: 'Malik'
     last : 'Henfield'
-    role : 'Co-Principal Investigator'
+    role : ''
     image: '/images/henfield.gif'
     links:
       - link: 'http://drhenfield.weebly.com/'
@@ -67,8 +67,8 @@ people:
       - link: 'https://www.linkedin.com/in/drhenfield'
         <<: *icon_linkedin
     title:
-      - 'Dean'
-      - 'School of Education'
+      - 'Full Professsor and Founding Dean'
+      - 'Institute for Racial Justice'
       - 'Loyola University Chicago'
 
   - first: 'Alark'
@@ -83,7 +83,7 @@ people:
       - link: 'http://twitter.com/alark'
         <<: *icon_twitter
     title:
-      - 'Associate Professor'
+      - 'Associate Professor and Department Chair'
       - 'Visualization and Graphics Lab'
       - 'Department of Computer Science'
       - 'College of Arts and Sciences'
@@ -104,19 +104,19 @@ people:
       - 'College of Arts and Sciences'
       - 'University of San Francisco'
 
-  - first: 'Christina'
-    last : 'Tzagarakis-Foster'
-    role : 'Co-Principal Investigator'
-    image: '/images/tzagarakis-foster.jpg'
-    links:
-      - link: 'https://www.usfca.edu/faculty/christina-tzagarakis-foster'
-        <<: *icon_website
-      - link: 'ctzagarakis@usfca.edu'
-        <<: *icon_email
-    title:
-      - 'Associate Dean for the Sciences'
-      - 'College of Arts and Sciences'
-      - 'University of San Francisco'
+  # - first: 'Christina'
+  #   last : 'Tzagarakis-Foster'
+  #   role : 'Co-Principal Investigator'
+  #   image: '/images/tzagarakis-foster.jpg'
+  #   links:
+  #     - link: 'https://www.usfca.edu/faculty/christina-tzagarakis-foster'
+  #       <<: *icon_website
+  #     - link: 'ctzagarakis@usfca.edu'
+  #       <<: *icon_email
+  #   title:
+  #     - 'Associate Dean for the Sciences'
+  #     - 'College of Arts and Sciences'
+  #     - 'University of San Francisco'
 
   - first: 'Gian'
     last : 'Bruno'
@@ -133,7 +133,7 @@ people:
 
   - first: 'Sami'
     last : 'Rollins'
-    role : ''
+    role : 'Co-Principal Investigator'
     image: '/images/rollins.jpg'
     links:
       - link: 'http://srollins.cs.usfca.edu/'
