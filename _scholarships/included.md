@@ -7,7 +7,9 @@ icon: fas fa-award
 
 ---
 
-The {% include ces.html %} program is more than just scholarship funding; it includes a suite of activities designed to both promote community engagement as well as support the academic and professional success of the scholars. At a glance, the program looks like:
+The {% include ces.html %} program is more than just scholarship funding; it includes a suite of activities designed to both promote community engagement as well as support the academic and professional success of the scholars. 
+
+For scholars joining the program as incoming first-year students the program looks as follows. Continuing students awarded scholarships *after* beginning their study at USF will join an in-progress cohort. Funding provided and activities required will be commensurate with the class year of the scholar when joining the program.
 
 <div class="glance">
   <div class="columns is-3 is-mobile">
@@ -97,7 +99,7 @@ The {% include ces.html %} program is more than just scholarship funding; it inc
 
 {% include anchor.html h="h2" text="Scholarships" %}
 
-Each scholar will receive up to **$32,500** over 4 years, which works out to $8,125.00 per year or $4,062.50 per semester.
+Each scholar will receive up to **$4,062.50** per semester for up to four years. 
 
 These scholarships are *in addition* to any financial aid or scholarships you have already received. The scholarships will be disbursed directly into scholars’ student account before the tuition deadline through the [Office of Financial Aid](https://myusf.usfca.edu/financial-aid). After funds are applied to scholars' expenses (tuition, fees, room, board, and any applicable fees charged to the student's account), any remaining funds [may be disbursed](https://myusf.usfca.edu/financial-aid/policies) to the scholar.  
 

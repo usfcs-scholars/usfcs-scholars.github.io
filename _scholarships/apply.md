@@ -7,21 +7,22 @@ icon: fas fa-edit
 
 ---
 
-<article class="message is-danger">
+<!--<article class="message is-danger">
   <div class="message-body">
     <i class="fad fa-calendar-exclamation"></i>
     <strong>Scholarship applications are now closed.</strong> It may still be possible to participate in the programming associated with this program. Check the latest announcements for details.
   </div>
 </article>
+-->
 
-<!--
 <article class="message is-danger">
   <div class="message-body">
     <i class="fad fa-calendar-exclamation"></i>
-    The priority application deadline for Fall 2020 is <strong>{{ site.data.dates.application_deadline.date | date: "%A %B %d, %Y"}}</strong>. Applications received after that date will be considered for the waiting list. See below for details.
+    The priority application deadline for Spring 2021 is <strong>{{ site.data.dates.application_deadline.date | date: "%A %B %d, %Y"}}</strong>. Applications received after that date will be considered for the waiting list. See below for details.
   </div>
 </article>
 
+<!--
 <article class="message is-link">
   <div class="message-body">
     <i class="fad fa-info-circle"></i>
@@ -40,7 +41,7 @@ Applicants must meet the following eligibility criteria to receive this scholars
 
   2. You must be citizens of the United States, OR nationals of the United States (as defined in section 101(a) of the Immigration and Nationality Act), OR aliens admitted as refugees under section 207 of the Immigration and Nationality Act, OR aliens lawfully admitted to the United States for permanent residence (You only need to meet ONE of these requirements.)
 
-  3. You must have either a high school GPA of 3.0 or higher, OR a SAT score of 1250 or higher, OR an ACT score of 28 or higher. (You only need to meet ONE of these requirements.)
+  3. Incoming first-year students must have either a high school GPA of 3.0 or higher, OR a SAT score of 1250 or higher, OR an ACT score of 28 or higher. (You only need to meet ONE of these requirements.) Continuing students must have a Computer Science major GPA of 3.0 or higher. Students in their first semester who have not yet completed a computer science class are eligible to apply.
 
   4. You must have an EFC (estimated family contribution) at or below $50,000 on your FAFSA.
 
@@ -52,14 +53,15 @@ For additional eligibility details, such as the requirements for continued fundi
 
 {% include anchor.html h="h2" text="Application" %}
 
-Potentially eligible applicants are contacted via email after being admitted to USF and asked to fill out a form with the following questions:
+Potentially eligible applicants are contacted via email and asked to fill out a form with the following questions:
 
   - Applicants will be asked to consent to the selection committee accessing their declared major, citizenship status, GPA, SAT, ACT, FAFSA, and financial aid information from their USF applications to verify eligibility.
 
   - Applicants will be asked to upload a 1 to 3 page resume in PDF format.
 
-The application also includes the following essay questions. The responses should be approximately 2-3 paragraphs; there is a 2000 character maximum per essay responses:
+The application also includes the essay questions about the applicant's choice of major, challenges encountered on the path to or in college, responsibilities outside of school, and potential impact of the scholarship. The responses should be approximately 2-3 paragraphs; there is a 2000 character maximum per essay responses:
 
+<!--
   - Applicants will be asked to discuss any **challenges they have encountered on their path to college**, including challenges encountered at home, work, or school.
 
   - Applicants will be asked to discuss any **responsibilities they have outside of school**, including familial obligations, work obligations, and extra curricular activities.
@@ -67,10 +69,11 @@ The application also includes the following essay questions. The responses shoul
   - Applicants will be asked to discuss **why they decided to major in computer science**.
 
   - Applicants will be asked to discuss the **single most important factor that will determine which university they choose** to attend, including class sizes, location, cost, diversity, available majors, and others.
+-->
 
-<strong class="has-text-danger">Applications are due {{ site.data.dates.application_deadline.date | date: "%A %b %d, %Y" }}.</strong> The link to the application form is emailed directly to eligible applicants after being admitted to the university. The form is also available below:
+<strong class="has-text-danger">Applications are due {{ site.data.dates.application_deadline.date | date: "%A %b %d, %Y" }}.</strong> The form is also available below:
 
-[<i class="fas fa-edit"></i> Apply Now](https://forms.gle/jUzsdq6SuBKuSD8f6)
+[<i class="fas fa-edit"></i> Apply Now](https://forms.gle/XKMhAe1KzLtNMJmZA)
 {: .button .is-primary .is-large .inherit }
 
 {% comment %}
@@ -83,6 +86,14 @@ Video interviews will be scheduled to start on {{ site.data.dates.video_intervie
 Interviews will be conducted online via the free <a href="https://zoom.us/">Zoom</a> video conference software. Please <a href="https://zoom.us/download">download</a> this software or install the mobile app prior to the scheduled interview time.
 {% endcomment %}
 
+{% include anchor.html h="h2" text="Notification" %}
+
+The selection committee will notify students who have been selected for the scholarship by **{{ site.data.dates.finalist_notification.date | date: "%A %b %d, %Y" }}**. Notifications will be sent to the email address entered in the application form. Scholars must **promptly** respond to the scholarship offer via email to accept the scholarship.
+
+If any of the finalists decline, the scholarship will be offered to someone on the waitlist instead.
+
+
+{% comment %}
 {% include anchor.html h="h2" text="Finalists" %}
 
 The selection committee will offer the {% include ces.html %} scholarship to the top 6 applicants on {{ site.data.dates.finalist_notification.date | date: "%A %b %d, %Y" }}. Notifications will be sent to the email address entered in the application form. To accept the scholarship, these finalists:
@@ -101,13 +112,19 @@ If any of the finalists decline, the scholarship will be offered to someone on t
     Be prepared for a quick turnaround between notification and the accept deadline. There will be just over 10 days to decide!
   </div>
 </article>
+{% endcomment %}
 
+
+{% comment %}
 {% include anchor.html h="h2" text="Waiting List" %}
 
 The selection committee will invite a select number of semi-finalists to join a waiting list for the {% include ces.html %} program. If space opens up, the scholarship will be offered to someone on the waiting list instead. Please note this might be *after* the deposit deadline, so only applicants that decided to attend USF and deposited will be eligible to accept at that point.
 
 If you are on the waiting list, be prepared for a quick turnaround! There may be only 1 week after notification to accept. Applicants must accept the scholarship and apply for on-campus housing by the guaranteed housing deadline of {{ site.data.dates.housing_deadline.date | date: "%A %b %d, %Y" }}.
 
+{% endcomment %}
+
+{% comment %}
 {% include anchor.html h="h2" text="Important Dates" %}
 
 Here are various dates relevant to the application process:
@@ -144,3 +161,4 @@ Here are various dates relevant to the application process:
   &bullet;
   <a href="https://myusf.usfca.edu/registration/academic-calendar">Academic Calendar</a>
 </div>
+{% endcomment %}

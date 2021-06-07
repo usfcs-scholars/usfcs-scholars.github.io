@@ -26,13 +26,15 @@ To continue and receive funding, recipients must remain a full-time student (12+
 
 {% include anchor.html h="h2" text="Academic Performance" %}
 
-Applicants must meet ONE of the following requirements to be eligible for the initial {% include ces.html %} scholarship:
+Incoming first-year applicants must meet ONE of the following requirements to be eligible for the initial {% include ces.html %} scholarship:
 
   1. Must have a high school GPA of 3.0 or higher, OR...
 
   2. Must have a SAT score of 1250 or higher, OR...
 
   3. Must have an ACT score of 28 or higher
+
+Continuing students must have a USF Computer Science major GPA of 3.0 or higher.
 
 To continue receiving funding, recipients must meet the following criteria at the end of every semester:
 
