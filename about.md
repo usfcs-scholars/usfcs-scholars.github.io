@@ -12,7 +12,12 @@ The <strong><span class="has-text-primary">Community Engaged Scholars</span> <sp
 
 Below you can find our core team. We also work with many other amazing staff and faculty throughout the university to make this program possible, as well as our awesome alumni that sign up as mentors!
 
-{% assign people = site.data.team.people | sort: 'last' %}
+{%- assign groups = site.data.team.team -%}
+{%- for group in groups %}
+
+{% include anchor.html h="h3" text=group.role %}
+
+{% assign people = group.people | sort: 'last' %}
 {%- for person in people %}
 <div class="media">
   <div class="media-left">
@@ -30,18 +35,6 @@ Below you can find our core team. We also work with many other amazing staff and
         <div class="level-item has-text-weight-bold is-size-5">
           {{ person.first }} {{ person.last }}
         </div>
-      </div>
-
-      <div class="level-right">
-        {%- if person.role == 'Principal Investigator' %}
-        <div class="level-item">
-          <span class="tag is-primary is-small">PI</span>
-        </div>
-        {% elsif person.role == 'Co-Principal Investigator' %}
-        <div class="level-item">
-          <span class="tag is-usf-gold is-small">Co-PI</span>
-        </div>
-        {% endif -%}
       </div>
     </div>
 
@@ -62,7 +55,7 @@ Below you can find our core team. We also work with many other amazing staff and
   </div>
 </div>
 {% endfor -%}
-
+{% endfor -%}
 
 {% include anchor.html h="h2" text="Funding" %}
 

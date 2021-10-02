@@ -19,129 +19,125 @@ icons:
     text: 'YouTube'
     icon: 'fab fa-youtube'
 
-people:
-  - first: 'Xornam '
-    last : 'Apedoe'
-    role : 'Co-Principal Investigator'
-    image: '/images/apedoe.jpg'
-    links:
-      - link: 'https://www.usfca.edu/faculty/xornam-apedoe'
-        <<: *icon_website
-      - link: 'https://youtu.be/Fa27DRXBU3w'
-        <<: *icon_youtube
-      - link: 'xapedoe@usfca.edu'
-        <<: *icon_email
-    title:
-      - 'Associate Professor'
-      - 'Department of Learning and Instruction'
-      - 'School of Education'
-      - 'University of San Francisco'
+team:
+  - role: 'Principal Investigators'
+    people:
+      - first: 'Xornam '
+        last : 'Apedoe'
+        image: '/images/apedoe.jpg'
+        links:
+          - link: 'https://www.usfca.edu/faculty/xornam-apedoe'
+            <<: *icon_website
+          - link: 'https://youtu.be/Fa27DRXBU3w'
+            <<: *icon_youtube
+          - link: 'xapedoe@usfca.edu'
+            <<: *icon_email
+        title:
+          - 'Associate Professor'
+          - 'Department of Learning and Instruction'
+          - 'School of Education'
+          - 'University of San Francisco'
 
-  - first: 'Sophie'
-    last : 'Engle'
-    role : 'Co-Principal Investigator'
-    image: '/images/engle.png'
-    links:
-      - link: 'https://sjengle.cs.usfca.edu/'
-        <<: *icon_website
-      - link: 'sjengle@cs.usfca.edu'
-        <<: *icon_email
-    title:
-      - 'Associate Professor'
-      - 'Visualization and Graphics Lab'
-      - 'Department of Computer Science'
-      - 'College of Arts and Sciences'
-      - 'University of San Francisco'
+      - first: 'Sophie'
+        last : 'Engle'
+        image: '/images/engle.png'
+        links:
+          - link: 'https://sjengle.cs.usfca.edu/'
+            <<: *icon_website
+          - link: 'sjengle@cs.usfca.edu'
+            <<: *icon_email
+        title:
+          - 'Associate Professor'
+          - 'Visualization and Graphics Lab'
+          - 'Department of Computer Science'
+          - 'College of Arts and Sciences'
+          - 'University of San Francisco'
 
-  - first: 'Malik'
-    last : 'Henfield'
-    role : ''
-    image: '/images/henfield.gif'
-    links:
-      - link: 'http://drhenfield.weebly.com/'
-        <<: *icon_website
-      - link: 'mshenfield@usfca.edu'
-        <<: *icon_email
-      - link: 'https://twitter.com/DrHenfield'
-        <<: *icon_twitter
-      - link: 'https://www.linkedin.com/in/drhenfield'
-        <<: *icon_linkedin
-    title:
-      - 'Full Professsor and Founding Dean'
-      - 'Institute for Racial Justice'
-      - 'Loyola University Chicago'
+      - first: 'Alark'
+        last : 'Joshi'
+        image: '/images/joshi.jpg'
+        links:
+          - link: 'https://www.cs.usfca.edu/~apjoshi/'
+            <<: *icon_website
+          - link: 'apjoshi@usfca.edu'
+            <<: *icon_email
+          - link: 'http://twitter.com/alark'
+            <<: *icon_twitter
+        title:
+          - 'Associate Professor and Department Chair'
+          - 'Visualization and Graphics Lab'
+          - 'Department of Computer Science'
+          - 'College of Arts and Sciences'
+          - 'University of San Francisco'
 
-  - first: 'Alark'
-    last : 'Joshi'
-    role : 'Co-Principal Investigator'
-    image: '/images/joshi.jpg'
-    links:
-      - link: 'https://www.cs.usfca.edu/~apjoshi/'
-        <<: *icon_website
-      - link: 'apjoshi@usfca.edu'
-        <<: *icon_email
-      - link: 'http://twitter.com/alark'
-        <<: *icon_twitter
-    title:
-      - 'Associate Professor and Department Chair'
-      - 'Visualization and Graphics Lab'
-      - 'Department of Computer Science'
-      - 'College of Arts and Sciences'
-      - 'University of San Francisco'
+      - first: 'Matthew'
+        last : 'Malensek'
+        image: '/images/malensek.jpg'
+        links:
+          - link: 'https://www.cs.usfca.edu/~mmalensek/'
+            <<: *icon_website
+          - link: 'mmalensek@usfca.edu'
+            <<: *icon_email
+        title:
+          - 'Assistant Professor'
+          - 'Department of Computer Science'
+          - 'College of Arts and Sciences'
+          - 'University of San Francisco'
 
-  - first: 'Matthew'
-    last : 'Malensek'
-    role : 'Co-Principal Investigator'
-    image: '/images/malensek.jpg'
-    links:
-      - link: 'https://www.cs.usfca.edu/~mmalensek/'
-        <<: *icon_website
-      - link: 'mmalensek@usfca.edu'
-        <<: *icon_email
-    title:
-      - 'Assistant Professor'
-      - 'Department of Computer Science'
-      - 'College of Arts and Sciences'
-      - 'University of San Francisco'
+      - first: 'Sami'
+        last : 'Rollins'
+        image: '/images/rollins.jpg'
+        links:
+          - link: 'http://srollins.cs.usfca.edu/'
+            <<: *icon_website
+          - link: 'srollins@cs.usfca.edu'
+            <<: *icon_email
+        title:
+          - 'Professor'
+          - 'Department of Computer Science'
+          - 'College of Arts and Sciences'
+          - 'University of San Francisco'
 
-  # - first: 'Christina'
-  #   last : 'Tzagarakis-Foster'
-  #   role : 'Co-Principal Investigator'
-  #   image: '/images/tzagarakis-foster.jpg'
-  #   links:
-  #     - link: 'https://www.usfca.edu/faculty/christina-tzagarakis-foster'
-  #       <<: *icon_website
-  #     - link: 'ctzagarakis@usfca.edu'
-  #       <<: *icon_email
-  #   title:
-  #     - 'Associate Dean for the Sciences'
-  #     - 'College of Arts and Sciences'
-  #     - 'University of San Francisco'
+  - role: 'Key Contributors'
+    people:
+      - first: 'Malik'
+        last : 'Henfield'
+        image: '/images/henfield.gif'
+        links:
+          - link: 'http://drhenfield.weebly.com/'
+            <<: *icon_website
+          - link: 'mshenfield@usfca.edu'
+            <<: *icon_email
+          - link: 'https://twitter.com/DrHenfield'
+            <<: *icon_twitter
+          - link: 'https://www.linkedin.com/in/drhenfield'
+            <<: *icon_linkedin
+        title:
+          - 'Full Professsor and Founding Dean'
+          - 'Institute for Racial Justice'
+          - 'Loyola University Chicago'
 
-  - first: 'Gian'
-    last : 'Bruno'
-    role : 'Senior Personnel'
-    image: '/images/bruno.png'
-    links:
-      - link: 'gbruno@usfca.edu'
-        <<: *icon_email
-    title:
-      - 'Program Manager'
-      - 'Department of Computer Science'
-      - 'College of Arts and Sciences'
-      - 'University of San Francisco'
+      - first: 'Gian'
+        last : 'Bruno'
+        image: '/images/bruno.png'
+        links:
+          - link: 'gbruno@usfca.edu'
+            <<: *icon_email
+        title:
+          - 'Program Manager'
+          - 'Department of Computer Science'
+          - 'College of Arts and Sciences'
+          - 'University of San Francisco'
 
-  - first: 'Sami'
-    last : 'Rollins'
-    role : 'Co-Principal Investigator'
-    image: '/images/rollins.jpg'
-    links:
-      - link: 'http://srollins.cs.usfca.edu/'
-        <<: *icon_website
-      - link: 'srollins@cs.usfca.edu'
-        <<: *icon_email
-    title:
-      - 'Professor'
-      - 'Department of Computer Science'
-      - 'College of Arts and Sciences'
-      - 'University of San Francisco'
+      - first: 'Eileen'
+        last : 'Fung'
+        image: '/images/fung.jpeg'
+        links:
+          - link: 'https://www.usfca.edu/faculty/eileen-fung'
+            <<: *icon_website
+          - link: 'fung@usfca.edu'
+            <<: *icon_email
+        title:
+          - 'Interim Dean'
+          - 'College of Arts and Sciences'
+          - 'University of San Francisco'
