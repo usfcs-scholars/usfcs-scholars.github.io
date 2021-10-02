@@ -24,7 +24,6 @@ team:
     people:
       - first: 'Xornam '
         last : 'Apedoe'
-        role : 'Co-Principal Investigator'
         image: '/images/apedoe.jpg'
         links:
           - link: 'https://www.usfca.edu/faculty/xornam-apedoe'
@@ -41,7 +40,6 @@ team:
 
       - first: 'Sophie'
         last : 'Engle'
-        role : 'Co-Principal Investigator'
         image: '/images/engle.png'
         links:
           - link: 'https://sjengle.cs.usfca.edu/'
@@ -57,7 +55,6 @@ team:
 
       - first: 'Alark'
         last : 'Joshi'
-        role : 'Co-Principal Investigator'
         image: '/images/joshi.jpg'
         links:
           - link: 'https://www.cs.usfca.edu/~apjoshi/'
@@ -75,7 +72,6 @@ team:
 
       - first: 'Matthew'
         last : 'Malensek'
-        role : 'Co-Principal Investigator'
         image: '/images/malensek.jpg'
         links:
           - link: 'https://www.cs.usfca.edu/~mmalensek/'
@@ -90,7 +86,6 @@ team:
 
       - first: 'Sami'
         last : 'Rollins'
-        role : 'Co-Principal Investigator'
         image: '/images/rollins.jpg'
         links:
           - link: 'http://srollins.cs.usfca.edu/'
@@ -107,7 +102,6 @@ team:
     people:
       - first: 'Malik'
         last : 'Henfield'
-        role : ''
         image: '/images/henfield.gif'
         links:
           - link: 'http://drhenfield.weebly.com/'
@@ -125,7 +119,6 @@ team:
 
       - first: 'Gian'
         last : 'Bruno'
-        role : 'Senior Personnel'
         image: '/images/bruno.png'
         links:
           - link: 'gbruno@usfca.edu'
