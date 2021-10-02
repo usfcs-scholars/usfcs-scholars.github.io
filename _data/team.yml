@@ -136,18 +136,15 @@ team:
           - 'College of Arts and Sciences'
           - 'University of San Francisco'
 
-
-
-    # - first: 'Christina'
-    #   last : 'Tzagarakis-Foster'
-    #   role : 'Co-Principal Investigator'
-    #   image: '/images/tzagarakis-foster.jpg'
-    #   links:
-    #     - link: 'https://www.usfca.edu/faculty/christina-tzagarakis-foster'
-    #       <<: *icon_website
-    #     - link: 'ctzagarakis@usfca.edu'
-    #       <<: *icon_email
-    #   title:
-    #     - 'Associate Dean for the Sciences'
-    #     - 'College of Arts and Sciences'
-    #     - 'University of San Francisco'
+      - first: 'Eileen'
+        last : 'Fung'
+        image: '/images/fung.jpeg'
+        links:
+          - link: 'https://www.usfca.edu/faculty/eileen-fung'
+            <<: *icon_website
+          - link: 'fung@usfca.edu'
+            <<: *icon_email
+        title:
+          - 'Interim Dean'
+          - 'College of Arts and Sciences'
+          - 'University of San Francisco'
