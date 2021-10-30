@@ -18,7 +18,7 @@ icon: fas fa-edit
 <article class="message is-danger">
   <div class="message-body">
     <i class="fad fa-calendar-exclamation"></i>
-    The priority application deadline for Spring 2021 is <strong>{{ site.data.dates.application_deadline.date | date: "%A %B %d, %Y"}}</strong>. Applications received after that date will be considered for the waiting list. See below for details.
+    The priority application deadline for Spring 2022 is <strong>{{ site.data.dates.application_deadline.date | date: "%A %B %d, %Y"}}</strong>. Applications received after that date will be considered for the waiting list. See below for details.
   </div>
 </article>
 
@@ -43,11 +43,9 @@ Applicants must meet the following eligibility criteria to receive this scholars
 
   3. Incoming first-year students must have either a high school GPA of 3.0 or higher, OR a SAT score of 1250 or higher, OR an ACT score of 28 or higher. (You only need to meet ONE of these requirements.) Continuing students must have a Computer Science major GPA of 3.0 or higher. Students in their first semester who have not yet completed a computer science class are eligible to apply.
 
-  4. You must have an EFC (estimated family contribution) at or below $50,000 on your FAFSA.
+  4. You must be Pell Grant eligible or have a total family income of $50,000 or below on your FAFSA.
 
-  5. You must be Pell Grant eligible and have unmet financial need.
-
-Applications can be submitted even if the last items (4 and/or 5) are unknown. We will determine whether your application meets those requirement before awarding the scholarships.
+Applications can be submitted even if the last item (4) is unknown. We will determine whether your application meets those requirement before awarding the scholarships.
 
 For additional eligibility details, such as the requirements for continued funding, see the [Eligibility](/scholarships/eligibility.html) guide.
 
@@ -73,7 +71,7 @@ The application also includes the essay questions about the applicant's choice o
 
 <strong class="has-text-danger">Applications are due {{ site.data.dates.application_deadline.date | date: "%A %b %d, %Y" }}.</strong> The form is also available below:
 
-[<i class="fas fa-edit"></i> Apply Now](https://forms.gle/XKMhAe1KzLtNMJmZA)
+[<i class="fas fa-edit"></i> Apply Now](https://forms.gle/t6M7pBN5ePgdnEuh8)
 {: .button .is-primary .is-large .inherit }
 
 {% comment %}
@@ -88,7 +86,7 @@ Interviews will be conducted online via the free <a href="https://zoom.us/">Zoom
 
 {% include anchor.html h="h2" text="Notification" %}
 
-The selection committee will notify students who have been selected for the scholarship by **{{ site.data.dates.finalist_notification.date | date: "%A %b %d, %Y" }}**. Notifications will be sent to the email address entered in the application form. Scholars must **promptly** respond to the scholarship offer via email to accept the scholarship.
+The selection committee will notify students who have been selected for the scholarship before the tuition payment deadline. Notifications will be sent to the email address entered in the application form. Scholars must **promptly** respond to the scholarship offer via email to accept the scholarship.
 
 If any of the finalists decline, the scholarship will be offered to someone on the waitlist instead.
 

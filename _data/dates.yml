@@ -1,6 +1,6 @@
 application_deadline: &application_deadline
   text: 'Priority deadline to apply for the CES|CS scholarship program.'
-  date: 2020-12-10
+  date: 2021-11-29
   info: 'Scholarship Calendar'
   link: 'https://scholars.cs.usfca.edu/'
   type: 'has-text-danger'
