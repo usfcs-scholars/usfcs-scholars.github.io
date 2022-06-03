@@ -84,13 +84,13 @@ team:
           - 'College of Arts and Sciences'
           - 'University of San Francisco'
 
-      - first: 'Sami'
-        last : 'Rollins'
-        image: '/images/rollins.jpg'
+      - first: 'Chris'
+        last : 'Brooks'
+        image: '/images/brooks.jpg'
         links:
-          - link: 'http://srollins.cs.usfca.edu/'
+          - link: 'https://www.usfca.edu/faculty/christopher-brooks'
             <<: *icon_website
-          - link: 'srollins@cs.usfca.edu'
+          - link: 'cbrooks@usfca.edu'
             <<: *icon_email
         title:
           - 'Professor'
@@ -139,5 +139,19 @@ team:
             <<: *icon_email
         title:
           - 'Interim Dean'
+          - 'College of Arts and Sciences'
+          - 'University of San Francisco'
+
+      - first: 'Sami'
+        last : 'Rollins'
+        image: '/images/rollins.jpg'
+        links:
+          - link: 'http://srollins.cs.usfca.edu/'
+            <<: *icon_website
+          - link: 'srollins@cs.usfca.edu'
+            <<: *icon_email
+        title:
+          - 'Professor'
+          - 'Department of Computer Science'
           - 'College of Arts and Sciences'
           - 'University of San Francisco'
