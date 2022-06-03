@@ -83,6 +83,9 @@ Not included are materials provided in the workshops led by on-campus offices su
 
 {% include anchor.html h="h2" text="Fall 2020" %}
 
-<p>
-  Curriculum developed as part of this summer head start program will be posted here when this program concludes.
-</p>
+The website for the Fall 2020 summer CS head start program is located at:
+
+  - **<https://scholars.cs.usfca.edu/start2020/>**
+  {: .list-none }
+
+The Fall 2020 program ran from Tuesday, August 11th to Friday, August 14th. Due to the pandemic, the program was conducted remotely via Zoom.
