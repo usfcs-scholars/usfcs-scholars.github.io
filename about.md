@@ -57,6 +57,23 @@ Below you can find our core team. We also work with many other amazing staff and
 {% endfor -%}
 {% endfor -%}
 
+{% include anchor.html h="h2" text="Papers" %}
+
+See below for the papers, posters, and reports published as part of this project.
+
+<ul>
+
+{%- assign papers = site.data.papers -%}
+{%- for paper in papers %}
+
+<li><p>
+  {{ paper.authors }}, "<a class="has-text-weight-bold" href="{{ paper.link }}">{{ paper.title }}</a>"{% if paper.info %} <span class="has-text-grey">({{ paper.info }})</span>{% endif %}, in <em>{{ paper.venue }}</em> on {{ paper.date | date: "%B %Y"}}.
+</p></li>
+
+{%- endfor %}
+
+</ul>
+
 {% include anchor.html h="h2" text="Funding" %}
 
 This project is supported by the [National Science Foundation](https://www.nsf.gov/) under Grant No. [1833718](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1833718). It is part of the [NSF Scholarships in Science, Technology, Engineering, and Mathematics (S-STEM) Program](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5257). The program addresses the need for "a high quality STEM workforce in STEM disciplines" and the "increased success of low-income academically talented students with demonstrated financial need."
