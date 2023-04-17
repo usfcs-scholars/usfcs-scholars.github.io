@@ -57,7 +57,7 @@ Below you can find our core team. We also work with many other amazing staff and
 {% endfor -%}
 {% endfor -%}
 
-{% include anchor.html h="h2" text="Papers" %}
+{% include anchor.html h="h2" text="Publications" %}
 
 See below for the papers, posters, and reports published as part of this project.
 
