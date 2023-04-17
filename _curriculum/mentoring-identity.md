@@ -17,3 +17,7 @@ This course was offered as a two unit special-topics course "CS 386-01 Career Me
 
   - **<https://scholars.cs.usfca.edu/cs386-fall2021/index.html>**
 
+This course was offered as a 1 or 2 credit special-topics course "CS 286-01 Peer-Led Seminar in Tech" in Fall 2022. The course was offered via Canvas.
+
+  - **[Download Syllabus](/files/cs286.pdf)**
+
